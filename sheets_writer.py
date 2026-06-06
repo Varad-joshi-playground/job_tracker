@@ -129,14 +129,24 @@ def write_jobs(jobs, baseline=False):
 
     log(f"Wrote {len(rows)} jobs to sheet ({'baseline' if baseline else 'new'}).")
     
-    # Write to CSV in repo as backup
+# Write to CSV — newest at top (full rewrite each run)
     csv_file = os.path.join(SCRIPT_DIR, "data", "jobs.csv")
-    file_exists = os.path.exists(csv_file)
-    mode = "a" if file_exists else "w"
-    with open(csv_file, mode, newline="", encoding="utf-8") as f:
+    
+    # Load existing rows (skip header)
+    existing_rows = []
+    if os.path.exists(csv_file):
+        with open(csv_file, newline="", encoding="utf-8") as f:
+            reader = csv.reader(f)
+            next(reader, None)  # skip header
+            existing_rows = list(reader)
+    
+    # Prepend new rows so newest sit at top
+    all_rows = rows + existing_rows
+    
+    with open(csv_file, "w", newline="", encoding="utf-8") as f:
         writer = csv.writer(f)
-        if not file_exists:
-            writer.writerow(HEADER)
-        writer.writerows(rows)
-    log(f"CSV updated: {csv_file} ({len(rows)} rows appended)")
+        writer.writerow(HEADER)
+        writer.writerows(all_rows)
+    
+    log(f"CSV updated: {csv_file} ({len(rows)} new + {len(existing_rows)} existing = {len(all_rows)} total)")
     return len(rows)
