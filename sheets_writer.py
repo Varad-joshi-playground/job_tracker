@@ -10,6 +10,7 @@ Google Sheets writer + dedup state management.
 import json
 import os
 from datetime import datetime, timezone
+import csv
 
 import gspread
 from google.oauth2.service_account import Credentials
@@ -127,4 +128,15 @@ def write_jobs(jobs, baseline=False):
         time.sleep(1.5)
 
     log(f"Wrote {len(rows)} jobs to sheet ({'baseline' if baseline else 'new'}).")
+    
+    # Write to CSV in repo as backup
+    csv_file = os.path.join(SCRIPT_DIR, "data", "jobs.csv")
+    file_exists = os.path.exists(csv_file)
+    mode = "a" if file_exists else "w"
+    with open(csv_file, mode, newline="", encoding="utf-8") as f:
+        writer = csv.writer(f)
+        if not file_exists:
+            writer.writerow(HEADER)
+        writer.writerows(rows)
+    log(f"CSV updated: {csv_file} ({len(rows)} rows appended)")
     return len(rows)
