@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+data/*_companies.json
+.DS_Store
+credentials.json
+token.json
