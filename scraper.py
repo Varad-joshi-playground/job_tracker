@@ -1,11 +1,9 @@
 """
 Job Tracker - scraper
-Fetches jobs from 6 ATS platforms, applies relevancy + US + experience +
-sponsorship filters, returns new jobs for the Google Sheet writer.
+Fetches jobs from 6 ATS platforms, applies all filters, returns new jobs.
 
-Company lists are pulled at runtime from the Feashliaa/job-board-aggregator
-repo (CC BY-NC 4.0 - personal/non-commercial use) so we don't redistribute
-the dataset in this repo.
+Company lists pulled at runtime from Feashliaa/job-board-aggregator
+(CC BY-NC 4.0 - personal/non-commercial use).
 """
 
 import json
@@ -25,10 +23,9 @@ import matcher
 # ── Config ────────────────────────────────────────────────────────────────────
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-DATA_DIR = os.path.join(SCRIPT_DIR, "data")
+DATA_DIR   = os.path.join(SCRIPT_DIR, "data")
 os.makedirs(DATA_DIR, exist_ok=True)
 
-# Raw company-list URLs from Feashliaa's repo (pulled at runtime, cached locally)
 COMPANY_LIST_URLS = {
     "greenhouse": "https://raw.githubusercontent.com/Feashliaa/job-board-aggregator/main/data/greenhouse_companies.json",
     "ashby":      "https://raw.githubusercontent.com/Feashliaa/job-board-aggregator/main/data/ashby_companies.json",
@@ -38,11 +35,16 @@ COMPANY_LIST_URLS = {
     "icims":      "https://raw.githubusercontent.com/Feashliaa/job-board-aggregator/main/data/icims_companies.json",
 }
 
-# Per-platform concurrency (matches Feashliaa's tuned rate-limit-safe values)
 MAX_WORKERS = {
     "greenhouse": 30, "lever": 30, "icims": 30,
     "workday": 50, "bamboohr": 10, "ashby": 5,
 }
+
+# Companies to block entirely by slug
+BLOCKED_COMPANIES = {"agency"}
+
+# ATS platforms that return description inline (no separate page fetch needed)
+HAS_INLINE_CONTENT = {"greenhouse", "lever"}
 
 USER_AGENTS = [
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
@@ -57,22 +59,20 @@ def log(msg):
     print(f"{datetime.now().strftime('%H:%M:%S')}  {msg}", flush=True)
 
 
-# ── Company list loading (runtime fetch + local cache) ────────────────────────
+# ── Company list loading ──────────────────────────────────────────────────────
 
 def load_company_list(platform: str) -> list:
-    """Fetch company list from Feashliaa repo, cache locally for reuse."""
+    """Fetch company list from Feashliaa repo, cache locally for 7 days."""
     cache_file = os.path.join(DATA_DIR, f"{platform}_companies.json")
 
-    # Use cache if it exists and is fresh (< 7 days old)
     if os.path.exists(cache_file):
         age_days = (time.time() - os.path.getmtime(cache_file)) / 86400
         if age_days < 7:
             with open(cache_file) as f:
                 return json.load(f)
 
-    # Otherwise fetch fresh
     try:
-        url = COMPANY_LIST_URLS[platform]
+        url  = COMPANY_LIST_URLS[platform]
         resp = requests.get(url, timeout=60)
         resp.raise_for_status()
         companies = resp.json()
@@ -88,35 +88,87 @@ def load_company_list(platform: str) -> list:
         return []
 
 
-# ── Per-company fetchers (return list of raw job dicts) ────────────────────────
+# ── Description fetching ──────────────────────────────────────────────────────
+
+_WD_URL_RE = re.compile(
+    r'https://([^.]+)\.(wd\d+)\.myworkdayjobs\.com/[^/]+/([^/]+)/job/([^?#]+)'
+)
+
 
 def _fetch_description(url: str) -> str:
-    """Fetch a job page's text for experience/sponsorship filtering."""
+    """
+    Fetch job description text for content-based filtering.
+    Workday: uses internal CXS detail API (JS-rendered pages return empty).
+    All others: plain GET + HTML tag strip.
+    Retries once on failure.
+    """
     try:
+        headers = {"User-Agent": random.choice(USER_AGENTS)}
+
+        # Workday — internal JSON API (avoids JS-rendering problem)
+        m = _WD_URL_RE.match(url)
+        if m:
+            company, wd, site, job_path = m.groups()
+            api_url = (
+                f"https://{company}.{wd}.myworkdayjobs.com"
+                f"/wday/cxs/{company}/{site}/job/{job_path}/details"
+            )
+            headers.update({
+                "Accept": "application/json",
+                "Content-Type": "application/json",
+                "Origin": f"https://{company}.{wd}.myworkdayjobs.com",
+            })
+            resp = requests.post(api_url, json={}, headers=headers, timeout=12)
+            if resp.status_code == 200:
+                data = resp.json()
+                jd = (data.get("jobPostingInfo") or {}).get("jobDescription", "")
+                if not jd:
+                    jd = data.get("jobDescription", "")
+                if jd:
+                    text = re.sub(r"<[^>]+>", " ", jd)
+                    return re.sub(r"\s+", " ", text).strip()
+            return ""
+
+        # All other ATS — plain GET + tag strip
+        resp = requests.get(url, headers=headers, timeout=10)
+        if resp.status_code == 200:
+            text = re.sub(r"<[^>]+>", " ", resp.text)
+            return re.sub(r"\s+", " ", text).strip()
+
+    except Exception:
+        pass
+
+    # Retry once after short pause
+    try:
+        time.sleep(2)
         headers = {"User-Agent": random.choice(USER_AGENTS)}
         resp = requests.get(url, headers=headers, timeout=10)
         if resp.status_code == 200:
-            # crude tag strip; good enough for keyword filters
             text = re.sub(r"<[^>]+>", " ", resp.text)
-            return re.sub(r"\s+", " ", text)
+            return re.sub(r"\s+", " ", text).strip()
     except Exception:
         pass
+
     return ""
 
+
+# ── ATS fetchers ──────────────────────────────────────────────────────────────
 
 def fetch_greenhouse(slug):
     try:
         url = f"https://boards-api.greenhouse.io/v1/boards/{slug}/jobs?content=true"
-        r = requests.get(url, timeout=30)
+        r   = requests.get(url, timeout=30)
         if r.status_code != 200:
             return slug, [], r.status_code
         jobs = []
         for j in r.json().get("jobs", []):
             jobs.append({
-                "company": slug, "title": j.get("title", ""),
+                "company":  slug,
+                "title":    j.get("title", ""),
                 "location": (j.get("location") or {}).get("name", ""),
-                "url": j.get("absolute_url", ""), "ats": "Greenhouse",
-                "content": j.get("content", ""),  # HTML description included
+                "url":      j.get("absolute_url", ""),
+                "ats":      "Greenhouse",
+                "content":  j.get("content", ""),
             })
         return slug, jobs, r.status_code
     except Exception:
@@ -126,17 +178,19 @@ def fetch_greenhouse(slug):
 def fetch_lever(slug):
     try:
         url = f"https://api.lever.co/v0/postings/{slug}"
-        r = requests.get(url, timeout=30)
+        r   = requests.get(url, timeout=30)
         if r.status_code != 200:
             return slug, [], r.status_code
         jobs = []
         for j in r.json():
             cat = j.get("categories", {})
             jobs.append({
-                "company": slug, "title": j.get("text", ""),
+                "company":  slug,
+                "title":    j.get("text", ""),
                 "location": cat.get("location", ""),
-                "url": j.get("hostedUrl", ""), "ats": "Lever",
-                "content": j.get("descriptionPlain", "") or j.get("description", ""),
+                "url":      j.get("hostedUrl", ""),
+                "ats":      "Lever",
+                "content":  j.get("descriptionPlain", "") or j.get("description", ""),
             })
         return slug, jobs, r.status_code
     except Exception:
@@ -145,14 +199,17 @@ def fetch_lever(slug):
 
 def fetch_ashby(slug):
     try:
-        url = "https://jobs.ashbyhq.com/api/non-user-graphql?op=ApiJobBoardWithTeams"
+        url     = "https://jobs.ashbyhq.com/api/non-user-graphql?op=ApiJobBoardWithTeams"
         payload = {
             "operationName": "ApiJobBoardWithTeams",
             "variables": {"organizationHostedJobsPageName": slug},
             "query": "query ApiJobBoardWithTeams($organizationHostedJobsPageName: String!) { jobBoard: jobBoardWithTeams(organizationHostedJobsPageName: $organizationHostedJobsPageName) { jobPostings { id title locationName } } }",
         }
-        headers = {"Content-Type": "application/json", "Accept": "application/json",
-                   "User-Agent": random.choice(USER_AGENTS)}
+        headers = {
+            "Content-Type": "application/json",
+            "Accept": "application/json",
+            "User-Agent": random.choice(USER_AGENTS),
+        }
         time.sleep(random.uniform(0.5, 2.0))
         for attempt in range(3):
             r = requests.post(url, json=payload, headers=headers, timeout=30)
@@ -164,13 +221,15 @@ def fetch_ashby(slug):
                 continue
             return slug, [], r.status_code
         board = (r.json().get("data") or {}).get("jobBoard") or {}
-        jobs = []
+        jobs  = []
         for j in board.get("jobPostings") or []:
             jobs.append({
-                "company": slug, "title": j.get("title", ""),
+                "company":  slug,
+                "title":    j.get("title", ""),
                 "location": j.get("locationName", ""),
-                "url": f"https://jobs.ashbyhq.com/{slug}/{j.get('id')}",
-                "ats": "Ashby", "content": "",  # description needs separate fetch
+                "url":      f"https://jobs.ashbyhq.com/{slug}/{j.get('id')}",
+                "ats":      "Ashby",
+                "content":  "",
             })
         return slug, jobs, r.status_code
     except Exception:
@@ -195,10 +254,12 @@ def fetch_bamboohr(slug):
                     else:
                         location = str(loc) if loc else ""
                     jobs.append({
-                        "company": slug, "title": j.get("jobOpeningName", ""),
+                        "company":  slug,
+                        "title":    j.get("jobOpeningName", ""),
                         "location": location,
-                        "url": f"https://{slug}.bamboohr.com/careers/{j.get('id')}",
-                        "ats": "BambooHR", "content": "",
+                        "url":      f"https://{slug}.bamboohr.com/careers/{j.get('id')}",
+                        "ats":      "BambooHR",
+                        "content":  "",
                     })
                 return slug, jobs, r.status_code
             if r.status_code in (429, 503, 502) and attempt < 2:
@@ -218,11 +279,13 @@ def fetch_workday(slug):
             return slug, [], None
         company, wd, site_id = parts
         wd_num = wd.replace("wd", "")
-        base = f"https://{company}.wd{wd_num}.myworkdayjobs.com"
-        api = f"{base}/wday/cxs/{company}/{site_id}/jobs"
-        headers = {"Accept": "application/json", "Content-Type": "application/json",
-                   "User-Agent": random.choice(USER_AGENTS),
-                   "Origin": base, "Referer": f"{base}/{site_id}"}
+        base   = f"https://{company}.wd{wd_num}.myworkdayjobs.com"
+        api    = f"{base}/wday/cxs/{company}/{site_id}/jobs"
+        headers = {
+            "Accept": "application/json", "Content-Type": "application/json",
+            "User-Agent": random.choice(USER_AGENTS),
+            "Origin": base, "Referer": f"{base}/{site_id}",
+        }
         jobs = []
         offset, limit, observed_total = 0, 20, None
         while True:
@@ -230,9 +293,9 @@ def fetch_workday(slug):
             r = requests.post(api, json=payload, headers=headers, timeout=30)
             if r.status_code != 200:
                 break
-            data = r.json()
+            data     = r.json()
             postings = data.get("jobPostings", [])
-            total = data.get("total", 0)
+            total    = data.get("total", 0)
             if observed_total is None:
                 observed_total = total
             elif total != observed_total:
@@ -241,10 +304,12 @@ def fetch_workday(slug):
                 break
             for j in postings:
                 jobs.append({
-                    "company": company, "title": j.get("title", ""),
+                    "company":  company,
+                    "title":    j.get("title", ""),
                     "location": j.get("locationsText", ""),
-                    "url": f"{base}/{site_id}{j.get('externalPath', '')}",
-                    "ats": "Workday", "content": "",
+                    "url":      f"{base}/{site_id}{j.get('externalPath', '')}",
+                    "ats":      "Workday",
+                    "content":  "",
                 })
             offset += limit
             if offset >= total:
@@ -257,13 +322,13 @@ def fetch_workday(slug):
 
 def fetch_icims(slug):
     try:
-        url = f"https://careers-{slug}.icims.com/sitemap.xml"
+        url     = f"https://careers-{slug}.icims.com/sitemap.xml"
         headers = {"Accept": "application/xml", "User-Agent": random.choice(USER_AGENTS)}
-        r = requests.get(url, headers=headers, timeout=10)
+        r       = requests.get(url, headers=headers, timeout=10)
         if r.status_code != 200:
             return slug, [], r.status_code
         root = ET.fromstring(r.content)
-        ns = {"s": "http://www.sitemaps.org/schemas/sitemap/0.9"}
+        ns   = {"s": "http://www.sitemaps.org/schemas/sitemap/0.9"}
         jobs = []
         for loc in root.findall(".//s:url/s:loc", ns):
             ju = (loc.text or "").strip()
@@ -274,8 +339,12 @@ def fetch_icims(slug):
                 continue
             title = unquote(parts[1]).replace("-", " ").strip().title()
             jobs.append({
-                "company": slug, "title": title, "location": "",  # no location from sitemap
-                "url": ju, "ats": "iCIMS", "content": "",
+                "company":  slug,
+                "title":    title,
+                "location": "",   # no location from sitemap
+                "url":      ju,
+                "ats":      "iCIMS",
+                "content":  "",
             })
         return slug, jobs, r.status_code
     except Exception:
@@ -287,39 +356,41 @@ FETCHERS = {
     "bamboohr": fetch_bamboohr, "workday": fetch_workday, "icims": fetch_icims,
 }
 
-# ATS that include description in the list response (can filter exp/sponsorship inline)
-HAS_INLINE_CONTENT = {"greenhouse", "lever"}
-
 
 # ── Filtering pipeline ────────────────────────────────────────────────────────
 
-def process_jobs(raw_jobs, platform):
+def process_jobs(raw_jobs, platform, seen_urls):
     """Apply all filters. Returns list of clean job dicts ready for the sheet."""
     out = []
     for job in raw_jobs:
         title = job.get("title", "").strip()
-        url = job.get("url", "")
+        url   = job.get("url", "")
         if not title or not url:
             continue
 
-        # 1. Title relevancy
+        # Dedup
+        if url in seen_urls:
+            continue
+
+        # Blocked companies
+        if job.get("company", "").lower().strip() in BLOCKED_COMPANIES:
+            continue
+
+        # Title relevancy
         if not matcher.title_matches(title):
             continue
 
-        # 2. Location (US filter)
+        # Location (US filter)
         if platform == "icims":
-            # no location data from sitemap
             keep, confidence = True, "Unverified"
         else:
             keep, confidence = matcher.classify_location(job.get("location", ""))
         if not keep:
             continue
 
-        # 3 & 4. Experience + sponsorship (need description text)
+        # Content-based filters (experience, sponsorship, PhD, clearance)
         content = job.get("content", "")
         if not content and platform not in HAS_INLINE_CONTENT:
-            # Fetch the page for ATS without inline descriptions, but only after
-            # title+location already passed (keeps fetch volume low)
             content = _fetch_description(url)
 
         if content:
@@ -327,24 +398,28 @@ def process_jobs(raw_jobs, platform):
                 continue
             if matcher.requires_no_sponsorship(content):
                 continue
+            if matcher.requires_phd(content):
+                continue
+            if matcher.requires_clearance(content):
+                continue
 
         out.append({
-            "company": job["company"],
-            "title": title,
-            "location": job.get("location", "") or "Not specified",
+            "company":             job["company"],
+            "title":               title,
+            "location":            job.get("location", "") or "Not specified",
             "location_confidence": confidence,
-            "url": url,
-            "ats": job["ats"],
+            "url":                 url,
+            "ats":                 job["ats"],
         })
     return out
 
 
 def fetch_platform(platform, companies, seen_urls):
-    """Fetch + filter all companies for one platform."""
+    """Fetch + filter all companies for one platform. Returns new matching jobs."""
     fetcher = FETCHERS[platform]
     workers = MAX_WORKERS[platform]
     new_jobs = []
-    checked = 0
+    checked  = 0
 
     log(f"[{platform}] checking {len(companies):,} companies ({workers} workers)")
     with ThreadPoolExecutor(max_workers=workers) as ex:
@@ -354,11 +429,7 @@ def fetch_platform(platform, companies, seen_urls):
             slug, raw, status = fut.result()
             if not raw:
                 continue
-            # Drop already-seen URLs BEFORE expensive description fetches
-            fresh = [j for j in raw if j.get("url") not in seen_urls]
-            if not fresh:
-                continue
-            processed = process_jobs(fresh, platform)
+            processed = process_jobs(raw, platform, seen_urls)
             new_jobs.extend(processed)
             if checked % 500 == 0:
                 log(f"[{platform}] {checked:,}/{len(companies):,} checked, {len(new_jobs)} new matches")
@@ -370,9 +441,8 @@ def fetch_platform(platform, companies, seen_urls):
 def run(seen_urls, platforms=None):
     """Main entry. Returns list of new matching jobs across all platforms."""
     platforms = platforms or list(FETCHERS.keys())
-    all_new = []
+    all_new   = []
 
-    # Run platforms concurrently with each other (each manages its own worker pool)
     with ThreadPoolExecutor(max_workers=len(platforms)) as pex:
         futures = {}
         for p in platforms:
@@ -382,7 +452,7 @@ def run(seen_urls, platforms=None):
         for fut in as_completed(futures):
             all_new.extend(fut.result())
 
-    # Dedup within this run (same URL from multiple sources)
+    # Dedup within this run (same URL from multiple ATS sources)
     seen_this_run = set()
     deduped = []
     for j in all_new:
