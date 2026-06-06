@@ -14,6 +14,7 @@ import csv
 
 import gspread
 from google.oauth2.service_account import Credentials
+from zoneinfo import ZoneInfo
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 SEEN_FILE = os.path.join(SCRIPT_DIR, "data", "seen_urls.json")
@@ -108,7 +109,7 @@ def write_jobs(jobs, baseline=False):
     client = get_client()
     ws = get_worksheet(client)
 
-    ts = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+    ts = datetime.now(ZoneInfo("America/Denver")).strftime("%m/%d/%Y")
     source = "Baseline" if baseline else "New"
 
     rows = [[
