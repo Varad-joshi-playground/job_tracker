@@ -115,9 +115,16 @@ def write_jobs(jobs, baseline=False):
         j["location"], j["location_confidence"], j["url"], "No", source,
     ] for j in jobs]
 
-    # Insert at row 2 so newest sit just below the header, pushing old ones down.
-    # For a large baseline, insert in one shot.
-    ws.insert_rows(rows, row=2, value_input_option="USER_ENTERED")
+    # Insert in batches to stay under Google Sheets API cell limits
+    # (19k rows x 9 cols = 172k cells, well over the 40k per-call limit).
+    import time
+    BATCH_SIZE = 500
+    batches = [rows[i:i+BATCH_SIZE] for i in range(0, len(rows), BATCH_SIZE)]
+    log(f"Writing {len(rows)} jobs in {len(batches)} batches of {BATCH_SIZE}...")
+    for idx, batch in enumerate(batches, 1):
+        ws.insert_rows(batch, row=2, value_input_option="USER_ENTERED")
+        log(f"  Batch {idx}/{len(batches)} written ({len(batch)} rows)")
+        time.sleep(1.5)
 
     log(f"Wrote {len(rows)} jobs to sheet ({'baseline' if baseline else 'new'}).")
     return len(rows)
