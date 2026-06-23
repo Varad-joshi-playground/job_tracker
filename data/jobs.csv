@@ -1,4 +1,212 @@
 Date Found,Company,Role,ATS,Location,Loc Confidence,Link,Applied?,Source
+06/23/2026,aircall,Senior Data Scientist,Lever,San Francisco Office,US,https://jobs.lever.co/aircall/a8d2c811-7d28-445f-aee0-5238a515c44e,No,New
+06/23/2026,hatchit,NLP/Linguistics Software Engineer,Lever,"Somerville, MA",US,https://jobs.lever.co/hatchit/a23a592b-edc0-498a-b90e-a521a706120e,No,New
+06/23/2026,solarlandscape,Senior Software Engineer,Lever,"New York, NY",US,https://jobs.lever.co/solarlandscape/09ae0270-2c56-4d1b-a044-cdb1f32639c9,No,New
+06/23/2026,spotify,"Data Engineer, Ads Product & Tech",Lever,"New York, NY",US,https://jobs.lever.co/spotify/6698ffb1-ad8f-4173-bf81-884357eaba0d,No,New
+06/23/2026,ttecdigital,"Conversational AI Chat Bot Developer, Cognigy",Lever,"Austin, TX",US,https://jobs.lever.co/ttecdigital/40938201-e836-4c3b-afd4-2352ce26cbfb,No,New
+06/23/2026,wwprosolutions,"Data Analyst - Semiconductor - Chandler, AZ",Lever,"Chandler, Arizona",US,https://jobs.lever.co/wwprosolutions/5233b05b-3133-4262-be07-835849ea2f79,No,New
+06/23/2026,affirm,"Software Engineer II, Backend (Infrastructure Platform)",Greenhouse,Remote US,US,https://job-boards.greenhouse.io/affirm/jobs/7764834003,No,New
+06/23/2026,alamarbiosciences,Senior AI & Data Engineer,Greenhouse,"Fremont, California",US,https://job-boards.greenhouse.io/alamarbiosciences/jobs/5997271004,No,New
+06/23/2026,airbnb,"Machine Learning Engineer, Community Support Engineering",Greenhouse,"San Francisco, CA",US,https://careers.airbnb.com/positions/8024267?gh_jid=8024267,No,New
+06/23/2026,allenintegratedsolutions,Data Scientist - Expert (KP)   Job#821,Greenhouse,"Springfield, Virginia, United States",US,https://job-boards.greenhouse.io/allenintegratedsolutions/jobs/7782115003,No,New
+06/23/2026,allenintegratedsolutions,Data Scientist - Senior    Job#822,Greenhouse,"Springfield, Virginia, United States",US,https://job-boards.greenhouse.io/allenintegratedsolutions/jobs/7782129003,No,New
+06/23/2026,apptronik,"Robot Platform Software Engineer, Wireless Networking",Greenhouse,"Austin, TX",US,https://boards.greenhouse.io/apptronik/jobs/6099727004?gh_jid=6099727004,No,New
+06/23/2026,apptronik,"Senior Robot Platform Software Engineer, Perception Systems",Greenhouse,"Austin, TX",US,https://boards.greenhouse.io/apptronik/jobs/6099716004?gh_jid=6099716004,No,New
+06/23/2026,artefact,Senior Data Scientist,Greenhouse,"135 W 26th Street, New York, NY 10001",US,https://job-boards.greenhouse.io/artefact/jobs/8604960002,No,New
+06/23/2026,astspacemobile,"Systems Engineer, Operations Automation",Greenhouse,"Lanham, Maryland, United States",US,https://ast-science.com/company/careers/?gh_jid=4707699005,No,New
+06/23/2026,botauto,"ML/RL Engineer, Behavior Planning",Greenhouse,"Houston, TX or San Francisco Bay Area",US,https://job-boards.greenhouse.io/botauto/jobs/5277558008,No,New
+06/23/2026,andurilindustries,Senior Deployed Software Engineer,Greenhouse,"Lexington, Massachusetts, United States",US,https://boards.greenhouse.io/andurilindustries/jobs/5171984007?gh_jid=5171984007,No,New
+06/23/2026,andurilindustries,Senior Mission Software Engineer,Greenhouse,"Lexington, Massachusetts, United States",US,https://boards.greenhouse.io/andurilindustries/jobs/5171986007?gh_jid=5171986007,No,New
+06/23/2026,cockroachlabs,Member of Technical Staff (Production Infrastructure),Greenhouse,"New York, NY; Toronto, Canada",US,https://www.cockroachlabs.com/careers/job/?gh_jid=7950651,No,New
+06/23/2026,coinbase,"Software Engineer, Enterprise Apps",Greenhouse,Remote - USA,US,https://www.coinbase.com/careers/positions/7958901?gh_jid=7958901,No,New
+06/23/2026,discord,"Senior Full-Stack Software Engineer, Social Commerce",Greenhouse,San Francisco Bay Area,US,https://job-boards.greenhouse.io/discord/jobs/8604768002,No,New
+06/23/2026,databricks,"Software Engineer, Web Products",Greenhouse,"Mountain View, California",US,https://databricks.com/company/careers/open-positions/job?gh_jid=8560779002,No,New
+06/23/2026,echodynecorp,Solutions Engineer II - DoD,Greenhouse,Washington DC,US,https://job-boards.greenhouse.io/echodynecorp/jobs/4691059006,No,New
+06/23/2026,eleviassociates,Cloud Software Engineer Sr,Greenhouse,"Annapolis Junction, MD",US,https://job-boards.greenhouse.io/eleviassociates/jobs/7781565003,No,New
+06/23/2026,energage,Senior AI Data Scientist,Greenhouse,"Exton, PA",US,https://job-boards.greenhouse.io/energage/jobs/8370962002,No,New
+06/23/2026,faire,Senior Platform Analytics Engineer,Greenhouse,"San Francisco, CA",US,https://boards.greenhouse.io/faire/jobs/8604742002?gh_jid=8604742002,No,New
+06/23/2026,grafanalabs,Senior Solutions Engineer | East Coast | Remote,Greenhouse,United States (Remote),US,https://job-boards.greenhouse.io/grafanalabs/jobs/6099563004,No,New
+06/23/2026,grafanalabs,Senior Solutions Engineer | West Coast | Remote,Greenhouse,United States (Remote),US,https://job-boards.greenhouse.io/grafanalabs/jobs/6099558004,No,New
+06/23/2026,gotion,AI Financial Analyst,Greenhouse,"Manteno, Illinois",US,https://job-boards.greenhouse.io/gotion/jobs/8604635002,No,New
+06/23/2026,interworks,Systems Engineer,Greenhouse,"Oklahoma City, Oklahoma, United States",US,https://job-boards.greenhouse.io/interworks/jobs/4382931006,No,New
+06/23/2026,jobsatphamily,Software Engineer (Healthcare Cloud & Interoperability),Greenhouse,"new york, new york",US,https://job-boards.greenhouse.io/jobsatphamily/jobs/5277116008,No,New
+06/23/2026,klaviyo,Senior Software Engineer - Developer Infrastructure,Greenhouse,"Boston, MA",US,https://www.klaviyo.com/careers/jobs/7711217003?gh_jid=7711217003,No,New
+06/23/2026,klaviyo,Software Engineer II - Growth,Greenhouse,"Boston, MA",US,https://www.klaviyo.com/careers/jobs/7659484003?gh_jid=7659484003,No,New
+06/23/2026,marqeta,"Senior Data Analyst, FP&A",Greenhouse,"Remote, USA",US,https://job-boards.greenhouse.io/marqeta/jobs/7710323,No,New
+06/23/2026,mongodb,Software Engineer 3,Greenhouse,New York City,US,https://www.mongodb.com/careers/job/?gh_jid=8015792,No,New
+06/23/2026,natera,Senior AI/ML Engineer,Greenhouse,US Remote,US,https://job-boards.greenhouse.io/natera/jobs/6099227004,No,New
+06/23/2026,otter,Senior Software Engineer,Greenhouse,"Mountain View, CA",US,https://job-boards.greenhouse.io/otter/jobs/8584390002,No,New
+06/23/2026,otterai,"Senior Software Engineer, Backend (Infrastructure)",Greenhouse,"Mountain View, CA",US,https://otter.ai/careers?gh_jid=6531802003,No,New
+06/23/2026,otterai,"Software Engineer, Backend (Infrastructure)",Greenhouse,"Mountain View, CA",US,https://otter.ai/careers?gh_jid=6531803003,No,New
+06/23/2026,planetlabs,"Software Engineer, Mission Systems",Greenhouse,"United States, Remote; Canada, Remote",US,https://job-boards.greenhouse.io/planetlabs/jobs/8008293,No,New
+06/23/2026,planetlabs,"Software Engineer - Platform, Mission Systems",Greenhouse,"United States, Remote; Canada, Remote",US,https://job-boards.greenhouse.io/planetlabs/jobs/8022265,No,New
+06/23/2026,questdefensesystemssolutionsinc,Data Scientist,Greenhouse,"Cincinnati, OH",US,https://www.quest-defense.com/careers/life-at-quest-defense/current-opportunities/?gh_jid=5169619007,No,New
+06/23/2026,reddit,"Senior Business Analyst, Revenue Analytics",Greenhouse,Remote - United States,US,https://job-boards.greenhouse.io/reddit/jobs/8023563,No,New
+06/23/2026,reddit,"Senior Software Engineer, Core Platform",Greenhouse,"New York City, NY",US,https://job-boards.greenhouse.io/reddit/jobs/8022449,No,New
+06/23/2026,reddit,"Senior Software Engineer, Core Platform",Greenhouse,"Chicago, IL",US,https://job-boards.greenhouse.io/reddit/jobs/8022448,No,New
+06/23/2026,reddit,"Senior Software Engineer, Core Platform",Greenhouse,"Los Angeles, CA",US,https://job-boards.greenhouse.io/reddit/jobs/8022447,No,New
+06/23/2026,reddit,"Senior Software Engineer, Core Platform",Greenhouse,"San Francisco, CA",US,https://job-boards.greenhouse.io/reddit/jobs/8022446,No,New
+06/23/2026,reddit,"Senior Software Engineer, Core Platform",Greenhouse,Remote - United States,US,https://job-boards.greenhouse.io/reddit/jobs/8022441,No,New
+06/23/2026,redwoodmaterials,"Senior Software Engineer - Site Controller, Energy Storage",Greenhouse,"San Francisco, California, United States",US,https://boards.greenhouse.io/redwoodmaterials/jobs/6097367004?gh_jid=6097367004,No,New
+06/23/2026,redwoodmaterials,Software Engineer - ML/Computer Vision (Battery Sorting),Greenhouse,"San Francisco, California, United States",US,https://boards.greenhouse.io/redwoodmaterials/jobs/6099577004?gh_jid=6099577004,No,New
+06/23/2026,roblox,"Senior Software Engineer, Data Infrastructure",Greenhouse,"San Mateo, CA, United States",US,https://careers.roblox.com/jobs/8014486?gh_jid=8014486,No,New
+06/23/2026,roblox,"Senior Software Engineer, Safety Foundation",Greenhouse,"San Mateo, CA, United States",US,https://careers.roblox.com/jobs/8017352?gh_jid=8017352,No,New
+06/23/2026,roku,Senior AI DevOps Engineer,Greenhouse,"Austin, Texas",US,https://www.weareroku.com/jobs/8021656?gh_jid=8021656,No,New
+06/23/2026,roku,"Senior Software Engineer, Ad Auctions",Greenhouse,"Cambridge, United Kingdom",US,https://www.weareroku.com/jobs/7960116?gh_jid=7960116,No,New
+06/23/2026,sofi,AI Financial Planning Analyst,Greenhouse,United States,US,https://sofi.com/careers/job/7780681003?gh_jid=7780681003,No,New
+06/23/2026,sofi,Associate AI Financial Planning Analyst,Greenhouse,New York City,US,https://sofi.com/careers/job/7781335003?gh_jid=7781335003,No,New
+06/23/2026,stripe,"Machine Learning Engineer, Payment Intelligence",Greenhouse,Seattle,US,https://stripe.com/jobs/search?gh_jid=7983456,No,New
+06/23/2026,spacex,"Application Software Engineer (C#/ Python), Data",Greenhouse,"Starbase, TX",US,https://boards.greenhouse.io/spacex/jobs/8604664002?gh_jid=8604664002,No,New
+06/23/2026,toast,"Senior Software Engineer, Voice AI",Greenhouse,"Remote, US",US,https://careers.toasttab.com/jobs?gh_jid=7701541,No,New
+06/23/2026,toast,"Software Engineer II, Voice AI Platform",Greenhouse,"Remote, US",US,https://careers.toasttab.com/jobs?gh_jid=8013367,No,New
+06/23/2026,try-picnic,Software Engineer,Greenhouse,"New York, NY",US,https://job-boards.greenhouse.io/try-picnic/jobs/8054473002,No,New
+06/23/2026,twilio,"Software Engineer, (L2) CDP",Greenhouse,Remote - US,US,https://job-boards.greenhouse.io/twilio/jobs/7602727,No,New
+06/23/2026,wyndlabs,Data Engineer,Greenhouse,Remote,Unverified,https://job-boards.greenhouse.io/wyndlabs/jobs/4133699008,No,New
+06/23/2026,wyndlabs,Senior Software Engineer (Backend),Greenhouse,Remote,Unverified,https://job-boards.greenhouse.io/wyndlabs/jobs/4458830008,No,New
+06/23/2026,xhiring,Data Engineer,Greenhouse,Remote,Unverified,https://job-boards.greenhouse.io/xhiring/jobs/4133701008,No,New
+06/23/2026,xhiring,Senior Software Engineer (Backend),Greenhouse,Remote,Unverified,https://job-boards.greenhouse.io/xhiring/jobs/4008787008,No,New
+06/23/2026,xai,Sr. IT Data Engineer,Greenhouse,"Palo Alto, CA",US,https://job-boards.greenhouse.io/xai/jobs/5167318007,No,New
+06/23/2026,americas,"Senior Solutions Engineer, Enterprise   Central & West",iCIMS,Not specified,Unverified,https://careers-americas.icims.com/jobs/25252/senior-solutions-engineer%2c-enterprise---central-%26-west/job,No,New
+06/23/2026,amivero,Genai Developer,iCIMS,Not specified,Unverified,https://careers-amivero.icims.com/jobs/1719/genai-developer/job,No,New
+06/23/2026,amivero,Data Scientist,iCIMS,Not specified,Unverified,https://careers-amivero.icims.com/jobs/1727/data-scientist/job,No,New
+06/23/2026,amivero,Data Engineer,iCIMS,Not specified,Unverified,https://careers-amivero.icims.com/jobs/1726/data-engineer/job,No,New
+06/23/2026,atlassian,"Senior Solutions Engineer, Enterprise   Central & West",iCIMS,Not specified,Unverified,https://globalcareers-atlassian.icims.com/jobs/25252/senior-solutions-engineer%2c-enterprise---central-%26-west/job,No,New
+06/23/2026,blackhawknetwork,Software Engineer Ii,iCIMS,Not specified,Unverified,https://careers-blackhawknetwork.icims.com/jobs/24913/software-engineer-ii/job,No,New
+06/23/2026,ccmsi,Senior Data Engineer – Insurance Data Platform,iCIMS,Not specified,Unverified,https://careers-ccmsi.icims.com/jobs/6655/senior-data-engineer-%e2%80%93-insurance-data-platform/job,No,New
+06/23/2026,cotiviti,Sr Generative Ai Scientist Ii   (Model Risk & Validation),iCIMS,Not specified,Unverified,https://careers-cotiviti.icims.com/jobs/19584/sr-generative-ai-scientist-ii---%28model-risk-%26-validation%29/job,No,New
+06/23/2026,cotiviti,Generative Ai Scientist   (Model Risk & Validation),iCIMS,Not specified,Unverified,https://careers-cotiviti.icims.com/jobs/19583/generative-ai-scientist---%28model-risk-%26-validation%29/job,No,New
+06/23/2026,cundall,Senior Electrical Critical Systems Engineer,iCIMS,Not specified,Unverified,https://careers-cundall.icims.com/jobs/5452/senior-electrical-critical-systems-engineer/job,No,New
+06/23/2026,curanahealth,Data Engineer,iCIMS,Not specified,Unverified,https://general-careers-curanahealth.icims.com/jobs/3920/data-engineer/job,No,New
+06/23/2026,emcorgroup,Data Analytics Engineer,iCIMS,Not specified,Unverified,https://careers-emcorgroup.icims.com/jobs/50642/data-analytics-engineer/job,No,New
+06/23/2026,epeconsulting,Power Systems Engineer Iii,iCIMS,Not specified,Unverified,https://careers-epeconsulting.icims.com/jobs/2191/power-systems-engineer-iii/job,No,New
+06/23/2026,gdms,Cybersecurity Systems Engineer,iCIMS,Not specified,Unverified,https://careers-gdms.icims.com/jobs/73254/cybersecurity-systems-engineer/job,No,New
+06/23/2026,geoyeti,Data Scientist,iCIMS,Not specified,Unverified,https://careers-geoyeti.icims.com/jobs/3105/data-scientist/job,No,New
+06/23/2026,hcmhcares,Health Data Scientist,iCIMS,Not specified,Unverified,https://careers-hcmhcares.icims.com/jobs/2719/health-data-scientist/job,No,New
+06/23/2026,here,Software Engineer,iCIMS,Not specified,Unverified,https://careers-here.icims.com/jobs/80997/software-engineer/job,No,New
+06/23/2026,isc2,Ai Architect,iCIMS,Not specified,Unverified,https://careers-isc2.icims.com/jobs/2464/ai-architect/job,No,New
+06/23/2026,jobyaviation,"Systems Engineer, Ifpcs Verification",iCIMS,Not specified,Unverified,https://careers-jobyaviation.icims.com/jobs/5185/systems-engineer%2c-ifpcs-verification/job,No,New
+06/23/2026,leftfieldlabs,Senior Frontend Software Engineer,iCIMS,Not specified,Unverified,https://careers-leftfieldlabs.icims.com/jobs/8101/senior-frontend-software-engineer/job,No,New
+06/23/2026,leftfieldlabs,Frontend Software Engineer,iCIMS,Not specified,Unverified,https://careers-leftfieldlabs.icims.com/jobs/8102/frontend-software-engineer/job,No,New
+06/23/2026,libertymutual,Senior Full Stack Software Engineer   Claims Technology,iCIMS,Not specified,Unverified,https://careers-libertymutual.icims.com/jobs/76573/senior-full-stack-software-engineer---claims-technology/job,No,New
+06/23/2026,markon,Systems Engineer Level 0,iCIMS,Not specified,Unverified,https://careers-markon.icims.com/jobs/8439/systems-engineer-level-0/job,No,New
+06/23/2026,odysseyconsult,Systems Engineer,iCIMS,Not specified,Unverified,https://careers-odysseyconsult.icims.com/jobs/8082/systems-engineer/job,No,New
+06/23/2026,persistentsystems,Senior Cyber Software Engineer,iCIMS,Not specified,Unverified,https://careers-persistentsystems.icims.com/jobs/2274/senior-cyber-software-engineer/job,No,New
+06/23/2026,peraton,Sap S 4Hana Analytics Data Developer,iCIMS,Not specified,Unverified,https://careers-peraton.icims.com/jobs/167959/sap-s-4hana-analytics-data-developer/job,No,New
+06/23/2026,peraton,Data Scientist   Medicaid,iCIMS,Not specified,Unverified,https://careers-peraton.icims.com/jobs/167883/data-scientist---medicaid/job,No,New
+06/23/2026,peraton,Senior Systems Engineer,iCIMS,Not specified,Unverified,https://careers-peraton.icims.com/jobs/167956/senior-systems-engineer/job,No,New
+06/23/2026,ropesgray,Ai And Innovation Training Analyst,iCIMS,Not specified,Unverified,https://careers-ropesgray.icims.com/jobs/9204/ai-and-innovation-training-analyst/job,No,New
+06/23/2026,abbott,Senior Data Scientist,Workday,United States > Austin : 8701 Bee Caves Rd,US,https://abbott.wd5.myworkdayjobs.com/abbottcareers2/job/United-States--Austin--8701-Bee-Caves-Rd/Senior-Data-Scientist_31147022,No,New
+06/23/2026,abbott,Senior Data Scientist,Workday,United States > Austin : 8701 Bee Caves Rd,US,https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/United-States--Austin--8701-Bee-Caves-Rd/Senior-Data-Scientist_31147022-1,No,New
+06/23/2026,aero,Model-Based Systems Engineer - Space Force Requirements,Workday,"Pentagon, VA",US,https://aero.wd5.myworkdayjobs.com/external/job/Pentagon-VA/Model-Based-Systems-Engineer---Space-Force-Requirements_R015451,No,New
+06/23/2026,aep,Data Scientist (Associate - Mid) | TRANSMISSION Systems & Asset Health,Workday,"New Albany, OH",US,https://aep.wd1.myworkdayjobs.com/aepcareersite/job/New-Albany-OH/Data-Scientist--Associate---Mid----TRANSMISSION-Systems---Asset-Health_R16709-1,No,New
+06/23/2026,alliancedata,Data Scientist,Workday,2 Locations,Unverified,https://alliancedata.wd5.myworkdayjobs.com/breadfinancial_us/job/Columbus-OH/Data-Scientist_R1012772,No,New
+06/23/2026,amfam,Application Development Engineer - Guidewire/GOSU & AI (Hybrid),Workday,WI Madison,US,https://amfam.wd1.myworkdayjobs.com/careers/job/WI-Madison/Application-Development-Engineer--Hybrid-_R38836-1,No,New
+06/23/2026,amplify,Software Engineer,Workday,Remote - United States,US,https://amplify.wd1.myworkdayjobs.com/amplify_careers/job/Remote---United-States/Software-Engineer_Req_12320,No,New
+06/23/2026,appliedis,Data Engineer,Workday,"Client Site - Washington, D.C.",US,https://appliedis.wd5.myworkdayjobs.com/ais_careers/job/Client-Site---Washington-DC/Data-Engineer_JR2026001273,No,New
+06/23/2026,archgroup,"Senior Actuarial Analyst, Reserving & Loss Analytics",Workday,4 Locations,Unverified,https://archgroup.wd1.myworkdayjobs.com/careers/job/Chicago-IL-United-States-of-America/Senior-Actuarial-Analyst--Reserving---Loss-Analytics_R26_434,No,New
+06/23/2026,axos,Sr. Systems Engineer - Linux,Workday,"HQ - San Diego, CA",US,https://axos.wd5.myworkdayjobs.com/axos/job/HQ---San-Diego-CA/Sr-Systems-Engineer---Linux_JR4902,No,New
+06/23/2026,bah,Machine Learning Engineer,Workday,2 Locations,Unverified,https://bah.wd1.myworkdayjobs.com/bah_jobs/job/McLean-VA/Machine-Learning-Engineer_R0241353,No,New
+06/23/2026,caa,"Jr. HR Data Analyst, Human Resources",Workday,"Los Angeles, CA",US,https://caa.wd1.myworkdayjobs.com/careers/job/Los-Angeles-CA/Jr-HR-Data-Analyst--Human-Resources_JR8935,No,New
+06/23/2026,carrier,Senior Mechanical Systems Engineer,Workday,"CAN01: Carrier-Syracuse, 6304 Carrier Parkway, East Syracuse, NY, 13057 USA",US,https://carrier.wd5.myworkdayjobs.com/jobs/job/CAN01-Carrier-Syracuse-6304-Carrier-Parkway-East-Syracuse-NY-13057-USA/Senior-Mechanical-Systems-Engineer_30209218,No,New
+06/23/2026,cccis,Senior Software Engineer,Workday,"Chicago (Green St), IL",US,https://cccis.wd1.myworkdayjobs.com/broadbean_external/job/Chicago-Green-St-IL/Senior-Software-Engineer_0014577,No,New
+06/23/2026,clr,Master Data Analyst,Workday,"Oklahoma City, OK",US,https://clr.wd5.myworkdayjobs.com/clr_careers/job/Oklahoma-City-OK/Master-Data-Analyst_R02516,No,New
+06/23/2026,collegeboard,Senior Data Scientist,Workday,Remote - USA,US,https://collegeboard.wd1.myworkdayjobs.com/careers/job/Remote---USA/Data-Scientist--Data-Science-Team_REQ002511,No,New
+06/23/2026,caci,Machine Learning Engineer (Clearance Sponsorship),Workday,"Chantilly, VA, US",US,https://caci.wd1.myworkdayjobs.com/external/job/Chantilly-VA-US/Machine-Learning-Engineer--Clearance-Sponsorship-_325560,No,New
+06/23/2026,asml,Machine Learning Scientist - Physics-Informed,Workday,"San Diego, CA, USA",US,https://asml.wd3.myworkdayjobs.com/asmlext1/job/San-Diego-CA-USA/Machine-Learning-Scientist---Physics_J-00345223,No,New
+06/23/2026,cubic,Senior Software Engineer,Workday,"Ashburn, Virginia",US,https://cubic.wd1.myworkdayjobs.com/cubic_usa_careers/job/Ashburn-Virginia/Senior-Software-Engineer_REQ_49231,No,New
+06/23/2026,cvshealth,Data Engineer,Workday,TX - Work from home,US,https://cvshealth.wd1.myworkdayjobs.com/cvs_health_careers/job/TX---Work-from-home/Data-Engineer_R0942785,No,New
+06/23/2026,cvshealth,Data Engineer,Workday,CT - Hartford,US,https://cvshealth.wd1.myworkdayjobs.com/cvs_health_careers/job/CT---Hartford/Data-Engineer_R0942170,No,New
+06/23/2026,dtn,Senior Software Engineer,Workday,"Remote, TX",US,https://dtn.wd1.myworkdayjobs.com/dtn_careers/job/Remote-TX/Senior-Software-Engineer_R-002969,No,New
+06/23/2026,dxctechnology,Sr Analyst Software Engineering,Workday,ESP - CT - SANT CUGAT DEL VALLE,US,https://dxctechnology.wd1.myworkdayjobs.com/dxcjobs/job/ESP---CT---SANT-CUGAT-DEL-VALLE/Sr-Analyst-Software-Engineering_51583654,No,New
+06/23/2026,equifax,Data Analyst,Workday,2 Locations,Unverified,https://equifax.wd5.myworkdayjobs.com/external/job/USA---Missouri---St-Louis---Lackland/Data-Analyst_J00177852,No,New
+06/23/2026,generalmotors,Data Engineer,Workday,3 Locations,Unverified,https://generalmotors.wd5.myworkdayjobs.com/careers_gm/job/Warren-Michigan-United-States-of-America/Data-Engineer_JR-202612597,No,New
+06/23/2026,gevernova,Fluid Systems Engineer,Workday,Houston,US,https://gevernova.wd5.myworkdayjobs.com/vernova_externalsite/job/Houston/Fluid-Systems-Engineer_R5045686-2,No,New
+06/23/2026,gevernova,Fluid Systems Engineer,Workday,Houston,US,https://gevernova.wd5.myworkdayjobs.com/only_confidential_executive_recruiting/job/Houston/Fluid-Systems-Engineer_R5045686-1,No,New
+06/23/2026,guidewire,Software Engineer III - AI Services,Workday,"United States - San Mateo, CA",US,https://guidewire.wd5.myworkdayjobs.com/external/job/United-States---San-Mateo-CA/Software-Engineer-III---AI-Services_JR_14271,No,New
+06/23/2026,guidewire,SBT Content Software Engineer II,Workday,2 Locations,Unverified,https://guidewire.wd5.myworkdayjobs.com/external/job/Canada---Toronto/SBT-Content-Software-Engineer-II_JR_14933,No,New
+06/23/2026,fiserv,AI and Cloud Business Analyst - IVR application,Workday,2 Locations,Unverified,https://fiserv.wd5.myworkdayjobs.com/ext/job/Omaha-Nebraska/AI-and-Cloud-Business-Analyst---IVR-application_R-10381388,No,New
+06/23/2026,cisco,Software Engineer,Workday,"San Jose, Costa Rica",US,https://cisco.wd5.myworkdayjobs.com/cisco_careers/job/San-Jose-Costa-Rica/Software-Engineer_2001530,No,New
+06/23/2026,cisco,Solutions Engineer,Workday,5 Locations,Unverified,https://cisco.wd5.myworkdayjobs.com/cisco_careers/job/Santiago-Chile/Solutions-Engineer_2017352-1,No,New
+06/23/2026,hp,Camera Solutions Engineer,Workday,"Austin, Texas, United States of America",US,https://hp.wd5.myworkdayjobs.com/externalcareersite/job/Austin-Texas-United-States-of-America/Camera-Solutions-Engineer_3159598-2,No,New
+06/23/2026,hp,Camera Solutions Engineer,Workday,"Austin, Texas, United States of America",US,https://hp.wd5.myworkdayjobs.com/exteu-ac-careersite/job/Austin-Texas-United-States-of-America/Camera-Solutions-Engineer_3159598,No,New
+06/23/2026,humana,Applied AI Engineer,Workday,"Boston, MA",US,https://humana.wd5.myworkdayjobs.com/humana_external_career_site/job/Boston-MA/Applied-AI-Engineer_R-415616,No,New
+06/23/2026,ia,Data Scientist,Workday,2 Locations,Unverified,https://ia.wd3.myworkdayjobs.com/professional/job/Quebec-Quebec/Scientifique-de-donnes_JR10026880,No,New
+06/23/2026,capitalone,Sr. Data Analyst - Enterprise Risk,Workday,2 Locations,Unverified,https://capitalone.wd12.myworkdayjobs.com/capital_one/job/McLean-VA/Sr-Data-Analyst---Enterprise-Risk_R245270,No,New
+06/23/2026,ingenovishealth,HRIS & People Analytics Analyst,Workday,Remote,Unverified,https://ingenovishealth.wd1.myworkdayjobs.com/ingenovishealth/job/Remote/HRIS---People-Analytics-Analyst_JR1639,No,New
+06/23/2026,globalhr,Data Engineer (Puerto Rico),Workday,2 Locations,Unverified,https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-PR-SANTA-ISABEL-B1--Felicia-Industrial-Park---St-B1--BLDG-1/Data-Engineer--Puerto-Rico-_01855118,No,New
+06/23/2026,globalhr,Data Engineer (Puerto Rico),Workday,2 Locations,Unverified,https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-PR-SANTA-ISABEL-B1--Felicia-Industrial-Park---St-B1--BLDG-1/Data-Engineer--Puerto-Rico-_01855121,No,New
+06/23/2026,globalhr,Senior Avionics Systems Engineer (ONSITE),Workday,US-FL-MELBOURNE-313 ~ 1344 S Babcock St ~ BLDG 313,US,https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-FL-MELBOURNE-313--1344-S-Babcock-St--BLDG-313/Senior-Avionics-Systems-Engineer--ONSITE-_01853935,No,New
+06/23/2026,globalhr,Senior Software Engineer - ARINCDirect Mobile (Onsite),Workday,US-MD-ANNAPOLIS-905 ~ 2551 Riva Rd ~ BLDG 905,US,https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MD-ANNAPOLIS-905--2551-Riva-Rd--BLDG-905/Senior-Software-Engineer---ARINCDirect-Mobile--Onsite-_01854027,No,New
+06/23/2026,globalhr,Senior Software Engineer - Air Traffic Solutions (Onsite),Workday,3 Locations,Unverified,https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MA-MARLBOROUGH-MA3--1001-Boston-Post-Rd--BLDG-3/Senior-Software-Engineer---Air-Traffic-Solutions--Onsite-_01854912,No,New
+06/23/2026,globalhr,Senior Software Engineer - Air Traffic Solutions (Onsite),Workday,"US-NE-OMAHA-218 ~ 2120 S 72Nd St ~ 72ND ST, Ste 900",US,https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-NE-OMAHA-218--2120-S-72Nd-St--72ND-ST-Ste-900/Senior-Software-Engineer---Air-Traffic-Solutions--Onsite-_01854908,No,New
+06/23/2026,globalhr,Software Engineer II - Air Traffic Solutions (Onsite),Workday,"US-NE-OMAHA-218 ~ 2120 S 72Nd St ~ 72ND ST, Ste 900",US,https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-NE-OMAHA-218--2120-S-72Nd-St--72ND-ST-Ste-900/Software-Engineer-II---Air-Traffic-Solutions--Onsite-_01854905,No,New
+06/23/2026,astrazeneca,Scientist - Protein Analytics and Mass Spectrometry,Workday,US - Gaithersburg - MD,US,https://astrazeneca.wd3.myworkdayjobs.com/careers/job/US---Gaithersburg---MD/Scientist---Protein-Analytics-and-Mass-Spectrometry_R-255038,No,New
+06/23/2026,justfab,Sr. Data Analytics Engineer,Workday,Not specified,Unverified,https://justfab.wd1.myworkdayjobs.com/fabletics/job/Sr-Data-Analytics-Engineer_R8396,No,New
+06/23/2026,kbr,Software Engineer - Junior Level,Workday,"Aurora, Colorado",US,https://kbr.wd5.myworkdayjobs.com/kbr_careers/job/Aurora-Colorado/Software-Engineer---Junior-Level_R2125502,No,New
+06/23/2026,kla,Sr. Software Engineer - AI/ML,Workday,"Ann Arbor, MI",US,https://kla.wd1.myworkdayjobs.com/annarbor/job/Ann-Arbor-MI/Software-Engineer---AI-ML_2634351,No,New
+06/23/2026,learfield,Partner Intelligence Data Analyst,Workday,"Dallas, TX",US,https://learfield.wd5.myworkdayjobs.com/sidearm/job/Dallas-TX/Partner-Intelligence-Data-Analyst_R101165,No,New
+06/23/2026,lbg,"Senior Fraud Investigator and Data Analyst - Isle of Man, Jersey or Guernsey.",Workday,3 Locations,Unverified,https://lbg.wd3.myworkdayjobs.com/lbg_careers/job/Douglas-Villiers-House/Senior-Fraud-Investigator-and-Data-Analyst---Isle-of-Man--Jersey-or-Guernsey_157023-1,No,New
+06/23/2026,learfield,Partner Intelligence Data Analyst,Workday,"Dallas, TX",US,https://learfield.wd5.myworkdayjobs.com/learfield/job/Dallas-TX/Partner-Intelligence-Data-Analyst_R101165-1,No,New
+06/23/2026,lbg,"Senior Fraud Investigator and Data Analyst - Isle of Man, Jersey or Guernsey.",Workday,3 Locations,Unverified,https://lbg.wd3.myworkdayjobs.com/broadbean_external/job/Douglas-Villiers-House/Senior-Fraud-Investigator-and-Data-Analyst---Isle-of-Man--Jersey-or-Guernsey_157023-2,No,New
+06/23/2026,jci,HVAC Controls Systems Engineer,Workday,Indianapolis-Indiana-United States of America,US,https://jci.wd5.myworkdayjobs.com/jci/job/Indianapolis-Indiana-United-States-of-America/HVAC-Controls-Pre-Install-Application-Engineer_WD30268782-1,No,New
+06/23/2026,morningstar,AI Product Engineer,Workday,Chicago,US,https://morningstar.wd5.myworkdayjobs.com/americas/job/Chicago/AI-Engineer_REQ-055251,No,New
+06/23/2026,novartis,Senior Expert (AI Engineering),Workday,Cambridge (USA),US,https://novartis.wd3.myworkdayjobs.com/novartis_careers/job/Cambridge-USA/Senior-Expert--AI-Engineering-_REQ-10078946-1,No,New
+06/23/2026,nationwidechildrens,Data Analyst II,Workday,"Main Campus, Columbus, OH",US,https://nationwidechildrens.wd5.myworkdayjobs.com/nchcareers/job/Main-Campus-Columbus-OH/Data-Analyst-II_R-26302-1,No,New
+06/23/2026,onedigital,Software Engineer - Remote,Workday,Remote,Unverified,https://onedigital.wd5.myworkdayjobs.com/onedigital/job/Remote/Software-Engineer---Remote_R9091,No,New
+06/23/2026,pattersoncompanies,Software Engineer III,Workday,"Amarillo, TX",US,https://pattersoncompanies.wd501.myworkdayjobs.com/pdco/job/Amarillo-TX/Software-Engineer-III_R110830,No,New
+06/23/2026,paypal,Sr Software Engineer,Workday,"San Jose, California, United States of America",US,https://paypal.wd1.myworkdayjobs.com/jobs/job/San-Jose-California-United-States-of-America/Sr-Software-Engineer_R0136127-1,No,New
+06/23/2026,pae,Thermal Systems Engineer (ES3),Workday,US-AL-Huntsville,US,https://pae.wd1.myworkdayjobs.com/amentum_careers/job/US-AL-Huntsville/Thermal-Systems-Engineer--ES3-_R0164210,No,New
+06/23/2026,philips,Automation Software Development Engineer,Workday,"Cambridge (US), Massachusetts, United States",US,https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Cambridge-US-Massachusetts-United-States/Automation-Software-Development-Engineer_585367-1,No,New
+06/23/2026,pvh,"Sr. Data Analyst, Retail Insights- PVH Corp.",Workday,"Bridgewater, NJ Office",US,https://pvh.wd1.myworkdayjobs.com/pvh_careers/job/Bridgewater-NJ-Office/Sr-Data-Analyst--Retail-Insights--PVH-Corp_R60144,No,New
+06/23/2026,qvc,Solutions Engineer,Workday,2 Locations,Unverified,https://qvc.wd5.myworkdayjobs.com/qrg/job/USA-PA-West-Chester/Solutions-Engineer_R82592,No,New
+06/23/2026,quickenloans,Software Engineer II - Python,Workday,"Detroit, MI",US,https://quickenloans.wd5.myworkdayjobs.com/rocket_careers/job/Detroit-MI/Software-Engineer-II---Python_R-082958-1,No,New
+06/23/2026,redhat,"Senior Software Engineer - GCP Hosted Control Planes (Czech Republic, Ireland, UK)",Workday,7 Locations,Unverified,https://redhat.wd5.myworkdayjobs.com/jobs/job/Remote-UK/Senior-Software-Engineer---GCP-Hosted-Control-Planes--Czech-Republic--Ireland--UK-_R-053112-1,No,New
+06/23/2026,redhat,Software Engineer,Workday,Raleigh,US,https://redhat.wd5.myworkdayjobs.com/jobs/job/Raleigh/Software-Engineer_R-056802,No,New
+06/23/2026,relx,Senior Software Engineer I,Workday,Georgia,US,https://relx.wd3.myworkdayjobs.com/risksolutions/job/Georgia/Senior-Software-Engineer-I_R114152,No,New
+06/23/2026,roberthalf,AI Solutions Developer,Workday,CHICAGO,US,https://roberthalf.wd1.myworkdayjobs.com/protivitina/job/CHICAGO/AI-Solutions-Developer_JR-260730,No,New
+06/23/2026,roberthalf,AI Solutions Developer,Workday,CHICAGO,US,https://roberthalf.wd1.myworkdayjobs.com/protivitiexperiencedcareers/job/CHICAGO/AI-Solutions-Developer_JR-260730-1,No,New
+06/23/2026,rollsroyce,Senior Control Systems Engineer,Workday,Indianapolis,US,https://rollsroyce.wd3.myworkdayjobs.com/professional/job/Indianapolis/Senior-Control-Systems-Engineer_JR6126643,No,New
+06/23/2026,rollsroyce,Sr. Control System Software Engineer (Control Laws),Workday,Indianapolis,US,https://rollsroyce.wd3.myworkdayjobs.com/professional/job/Indianapolis/Control-System-Software-Specialist--Control-Laws----Hybrid-Working_JR6127781,No,New
+06/23/2026,rxo,Forward Deployed Engineer,Workday,"Southfield, Michigan",US,https://rxo.wd501.myworkdayjobs.com/rxojobs/job/Southfield-Michigan/Forward-Deployed-Engineer_JR104088,No,New
+06/23/2026,seic,Software Engineer II,Workday,USA - Chicago,US,https://seic.wd1.myworkdayjobs.com/sei_global_services/job/USA---Chicago/Software-Engineer-II_R0036226,No,New
+06/23/2026,servicetitan,Senior AI Engineer (Agent OS Platform),Workday,US CA Remote,US,https://servicetitan.wd1.myworkdayjobs.com/servicetitan/job/US-CA-Remote/Senior-AI-Engineer--Agent-OS-Platform-_JR114907,No,New
+06/23/2026,snapchat,"Machine Learning Engineer, Level 4",Workday,5 Locations,Unverified,https://snapchat.wd1.myworkdayjobs.com/sourced/job/Palo-Alto-California/Machine-Learning-Engineer--Level-4_Q226SWEML3-1,No,New
+06/23/2026,sunlife,"Student, AI Engineer (Fall 2026)",Workday,2 Locations,Unverified,https://sunlife.wd3.myworkdayjobs.com/campus/job/Toronto-Ontario/Student--Software-Engineer--Fall-2026-_JR00124419-1,No,New
+06/23/2026,sunlife,"Student, Associate Software Engineer (Fall 2026)",Workday,4 Locations,Unverified,https://sunlife.wd3.myworkdayjobs.com/campus/job/North-York-Ontario/Student--Associate-Software-Engineer--Fall-2026-_JR00125399,No,New
+06/23/2026,synnex,Senior Platform Engineer (Multi-Cloud & AI Adoption),Workday,"San Jose, Costa Rica",US,https://synnex.wd5.myworkdayjobs.com/tdsynnexcareers/job/San-Jose-Costa-Rica/Senior-Platform-Engineer--Multi-Cloud---AI-Adoption-_R46289,No,New
+06/23/2026,takeda,Sr. Data Engineer - Analytical Development,Workday,"Boston, MA",US,https://takeda.wd3.myworkdayjobs.com/external/job/Boston-MA/Sr-Data-Engineer---Analytical-Development_R0178210-1,No,New
+06/23/2026,target,"Sr Applied Data Scientist - Search and Browse (Applied ML, NLP, LLMs)",Workday,2 Locations,Unverified,https://target.wd5.myworkdayjobs.com/targetcareers/job/100-Mathilda-PlaceSte-100-SunnyvaleCA-94086-6017/Sr-Applied-Data-Scientist---Search-and-Browse--Applied-ML--NLP--LLMs-_R0000439236,No,New
+06/23/2026,thomsonreuters,"Senior Software Engineer - AI, CoCounsel FDE",Workday,Not specified,Unverified,https://thomsonreuters.wd5.myworkdayjobs.com/external_career_site/job/United-States-of-America-Frisco-Texas/Senior-Software-Engineer---AI--CoCounsel-FDE_JREQ200170,No,New
+06/23/2026,thomsonreuters,"Senior Software Engineer - AI (Legal), CoCounsel FDE",Workday,Not specified,Unverified,https://thomsonreuters.wd5.myworkdayjobs.com/external_career_site/job/United-States-of-America-Frisco-Texas/Senior-Software-Engineer---AI--Legal---CoCounsel-FDE_JREQ200169,No,New
+06/23/2026,truist,Data Scientist (Level I / Level II),Workday,2 Locations,Unverified,https://truist.wd1.myworkdayjobs.com/careers/job/Charlotte-NC/Data-Scientist--Level-I---Level-II-_R0116103-1,No,New
+06/23/2026,volarisgroup,AI-Directed Software Engineer,Workday,3 Locations,Unverified,https://volarisgroup.wd3.myworkdayjobs.com/envisionware/job/United-States---Georgia/AI-Directed-Software-Engineer_R67695,No,New
+06/23/2026,vsp,Test Software Engineer,Workday,Remote US,US,https://vsp.wd1.myworkdayjobs.com/vspvisioncareers/job/Remote-US/Test-Software-Engineer_R-9639,No,New
+06/23/2026,warnerbros,"Specialist, AI Innovation, CNN Digital Products & Services",Workday,3 Locations,Unverified,https://warnerbros.wd5.myworkdayjobs.com/global/job/NY-New-York-30-Hudson-Yards/Specialist--AI-Innovation--CNN-Digital-Products---Services_R000104663,No,New
+06/23/2026,wk,"Senior Software Product Engineer, .NET, Azure, AI",Workday,3 Locations,Unverified,https://wk.wd3.myworkdayjobs.com/external/job/USA---St-Cloud-MN/Senior-Software-Engineer--Compliance-Solutions_R0053401,No,New
+06/23/2026,worldpay,Senior Data Scientist/Engineer - Commercial Optimisation,Workday,Not specified,Unverified,https://worldpay.wd5.myworkdayjobs.com/worldpay_external_careers_site/job/LONDON--UNITED-KINGDOM/Senior-Data-Scientist-Engineer---Lead-Generation-and-Prospecting_JR0609581,No,New
+06/23/2026,wgu,Software Engineer II - Mobile,Workday,"Salt Lake City, UT",US,https://wgu.wd5.myworkdayjobs.com/external/job/Salt-Lake-City-UT/Software-Engineer-II---Mobile_JR-025464,No,New
+06/23/2026,alpacahealth,Senior Backend Software Engineer,Ashby,"New York City, NY",US,https://jobs.ashbyhq.com/alpacahealth/2dd1ccd8-aaba-4492-8c19-d2fb33055bae,No,New
+06/23/2026,bestow,Data Analyst II,Ashby,"Remote, US",US,https://jobs.ashbyhq.com/bestow/8b30bb2a-b012-4a07-a2d7-0b87604b0283,No,New
+06/23/2026,decagon,"Senior Software Engineer, Platform Engineering",Ashby,San Francisco,US,https://jobs.ashbyhq.com/decagon/a9e1123e-b6e7-4f93-ad4d-6c54a8c33a72,No,New
+06/23/2026,decagon,"Senior Software Engineer, Platform Engineering",Ashby,New York City,US,https://jobs.ashbyhq.com/decagon/357ab345-40bc-413e-9f40-117205cd96e8,No,New
+06/23/2026,givebutter,"Senior Software Engineer, Trust & Safety",Ashby,Remote,Unverified,https://jobs.ashbyhq.com/givebutter/0b9eb432-ea4f-4057-a13e-a044a3c3407a,No,New
+06/23/2026,hatch,Senior Full-Stack Engineer - AI Agents,Ashby,United States,US,https://jobs.ashbyhq.com/hatch/15cfe3cd-454d-4a85-b4ca-4f4cb0e4d04b,No,New
+06/23/2026,hatch,Senior Software Engineer - AI Agents,Ashby,United States,US,https://jobs.ashbyhq.com/hatch/d9109434-efcd-485f-9990-968a30e777d1,No,New
+06/23/2026,luminovo,Solutions Engineer | US (d/f/m),Ashby,🇺🇸 New York (hybrid),US,https://jobs.ashbyhq.com/luminovo/5a27e9de-c7e9-494a-a01b-1383df7f1321,No,New
+06/23/2026,openai,"AI Deployment Engineer, Messenger Integrations",Ashby,San Francisco,US,https://jobs.ashbyhq.com/openai/f827e381-91a0-40b7-8ae9-b56540642a74,No,New
+06/23/2026,parallel,"Member of Technical Staff, Model Training",Ashby,San Francisco or Palo Alto,US,https://jobs.ashbyhq.com/parallel/2738b2a4-978a-49cb-bd6f-68098f3794d6,No,New
+06/23/2026,parallel,"Member of Technical Staff, Retrieval & Indexing",Ashby,San Francisco or Palo Alto,US,https://jobs.ashbyhq.com/parallel/fc674743-e5ca-494f-a06e-92bc5977423f,No,New
+06/23/2026,parallel,"Member of Technical Staff, Search Ranking",Ashby,San Francisco or Palo Alto,US,https://jobs.ashbyhq.com/parallel/bc715d40-ec81-4d8d-8a5a-92db5227679c,No,New
+06/23/2026,snowflake,Forward Deployed Engineer – Data Engineer,Ashby,US-CA-Menlo Park,US,https://jobs.ashbyhq.com/snowflake/9bbafaf2-240d-4cfb-8e95-b289f0350be5,No,New
+06/23/2026,fullbay,Software Development Engineer in Test I,BambooHR,Not specified,Unverified,https://fullbay.bamboohr.com/careers/139,No,New
+06/23/2026,gorillalogic,"AI Automation Engineer (n8n & AI Workflows) - AA, Remote: Colombia - Costa Rica, Fulltime.",BambooHR,Not specified,Unverified,https://gorillalogic.bamboohr.com/careers/182,No,New
+06/23/2026,legato,Senior Systems Engineer (GC-3),BambooHR,"Annapolis Junction, Maryland",US,https://legato.bamboohr.com/careers/145,No,New
+06/23/2026,lmrtechnicalgroup,Data Analyst / Programmer,BambooHR,"Hampton, Virginia",US,https://lmrtechnicalgroup.bamboohr.com/careers/1634,No,New
+06/23/2026,lmrtechnicalgroup,Data Analyst,BambooHR,"San Antonio, Texas",US,https://lmrtechnicalgroup.bamboohr.com/careers/1635,No,New
+06/23/2026,navteca,Senior Application Developer / Software Engineer,BambooHR,"Washington, District of Columbia",US,https://navteca.bamboohr.com/careers/61,No,New
+06/23/2026,navteca,Application Developer / Software Engineer,BambooHR,"Washington, District of Columbia",US,https://navteca.bamboohr.com/careers/62,No,New
+06/23/2026,safetychain,Sr. Full Stack Software Engineer,BambooHR,"Grapevine, Texas",US,https://safetychain.bamboohr.com/careers/180,No,New
+06/23/2026,topemployers,Senior Analytics Engineer,BambooHR,"Amsterdam, NH",US,https://topemployers.bamboohr.com/careers/306,No,New
 06/23/2026,computercare,Data Analyst,Lever,Remote,Unverified,https://jobs.lever.co/computercare/d055b8be-76dd-48f7-99fb-7f51bc7600a3,No,New
 06/23/2026,builtinintegrationsandbox,"Do Not Apply - Senior Data Scientist 6/9/2026, 3:34:27 AM",Greenhouse,Chicago|USA,US,https://job-boards.greenhouse.io/builtinintegrationsandbox/jobs/6099384004,No,New
 06/23/2026,builtinintegrationsandbox,Senior Data Scientist (Hybrid),Greenhouse,Alaska,US,https://job-boards.greenhouse.io/builtinintegrationsandbox/jobs/6099379004,No,New
