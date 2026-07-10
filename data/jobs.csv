@@ -1,4 +1,39 @@
 Date Found,Company,Role,ATS,Location,Loc Confidence,Link,Applied?,Source
+07/10/2026,avepoint,Data Analyst- Channel,Greenhouse,"Arlington, VA, United States",US,https://www.avepoint.com/careers/job-detail?gh_jid=7982072,No,New
+07/10/2026,avepoint,Data Analyst- Channel,Greenhouse,"Jersey City, NJ, United States",US,https://www.avepoint.com/careers/job-detail?gh_jid=7554040,No,New
+07/10/2026,avepoint,Senior Machine Learning Engineer,Greenhouse,"Jersey City, NJ, United States",US,https://www.avepoint.com/careers/job-detail?gh_jid=7996654,No,New
+07/10/2026,avepoint,Senior Product Data Scientist,Greenhouse,"Jersey City, NJ, United States",US,https://www.avepoint.com/careers/job-detail?gh_jid=7407016,No,New
+07/10/2026,spire,Software Engineer - RFGL Systems,Greenhouse,"Washington, District of Columbia, United States",US,https://spire.com/careers/job-openings/job/?gh_jid=8054968&gh_jid=8054968,No,New
+07/10/2026,consilio,Senior Software Engineer (Microsoft Power Platform),iCIMS,Not specified,Unverified,https://careers-consilio.icims.com/jobs/4078/senior-software-engineer-%28microsoft-power-platform%29/job,No,New
+07/10/2026,consilio-skye,Senior Software Engineer (Microsoft Power Platform),iCIMS,Not specified,Unverified,https://careers-consilio-skye.icims.com/jobs/4078/senior-software-engineer-%28microsoft-power-platform%29/job,No,New
+07/10/2026,en-nortal,Senior Ai Engineer,iCIMS,Not specified,Unverified,https://careers-en-nortal.icims.com/jobs/6137/senior-ai-engineer/job,No,New
+07/10/2026,kingfisher2,Senior Software Engineer (Ios),iCIMS,Not specified,Unverified,https://careers-kingfisher2.icims.com/jobs/150590/senior-software-engineer-%28ios%29/job,No,New
+07/10/2026,mambu,Senior Software Engineer,iCIMS,Not specified,Unverified,https://careers-mambu.icims.com/jobs/3450/senior-software-engineer/job,No,New
+07/10/2026,mambu,Senior Software Engineer,iCIMS,Not specified,Unverified,https://careers-mambu.icims.com/jobs/3449/senior-software-engineer/job,No,New
+07/10/2026,oneidentity,Senior Software Engineer – Test Automation,iCIMS,Not specified,Unverified,https://careers-oneidentity.icims.com/jobs/13572/senior-software-engineer-%e2%80%93-test-automation/job,No,New
+07/10/2026,ag,Data Scientist AI,Workday,2 Locations,Unverified,https://ag.wd3.myworkdayjobs.com/airbus/job/Lisbon-Airbus-Portugal/Data-Scientist-AI_JR10356160,No,New
+07/10/2026,avav,"Senior Systems Engineer - Mission/Software Assurance, System Architecture, Interface Design",Workday,"Huntsville, AL",US,https://avav.wd1.myworkdayjobs.com/avav/job/Huntsville-AL/Senior-Systems-Engineer---Mission-Software-Assurance--System-Architecture--Interface-Design_8095,No,New
+07/10/2026,bah,Data Scientist,Workday,"Joint Base Pearl Harbor - Hickam, HI",US,https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Joint-Base-Pearl-Harbor---Hickam-HI/Data-Scientist_R0244112,No,New
+07/10/2026,caci,Junior C# Software Engineer,Workday,"Bethesda, MD, US",US,https://caci.wd1.myworkdayjobs.com/external/job/Bethesda-MD-US/Junior-C--Software-Engineer_327770,No,New
+07/10/2026,customersbank,Enterprise AI Engineer,Workday,"Malvern, PA",US,https://customersbank.wd1.myworkdayjobs.com/customersbankcareers/job/Malvern-PA/Enterprise-AI-Engineer_REQ-2026-947,No,New
+07/10/2026,barclays,GenAI Developer,Workday,2 Locations,Unverified,https://barclays.wd3.myworkdayjobs.com/external_career_site_barclays/job/Chennai-DLF-IT-Park/GenAI-Developer_JR-0000106789,No,New
+07/10/2026,europcar,Alternant(e) Data Analyst / Pilotage & Performance,Workday,Not specified,Unverified,https://europcar.wd103.myworkdayjobs.com/europcarcareerpage/job/Boulogne-Billancourt/Alternant-e--Data-Analyst---Pilotage---Performance_JR113084,No,New
+07/10/2026,gnw,"Senior Software Engineer, Java",Workday,2 Locations,Unverified,https://gnw.wd1.myworkdayjobs.com/gnw/job/Richmond-Virginia/Senior-Java-Developer_REQ-260215,No,New
+07/10/2026,fis,"Sr IT Architect - Data Engineering, Azure, and .NET",Workday,US FL JAX 347,US,https://fis.wd5.myworkdayjobs.com/searchjobs/job/US-FL-JAX-347/Sr-IT-Architect---Data-Engineering--Azure--and-NET_JR0307661-1,No,New
+07/10/2026,fiserv,10x Java Developer/AI Engineer,Workday,"Berkeley Heights, New Jersey",US,https://fiserv.wd5.myworkdayjobs.com/ext/job/Berkeley-Heights-New-Jersey/XMLNAME-10x-Java-Developer-AI-Engineer_R-10393149,No,New
+07/10/2026,hpe,HPE Labs – AI/ML Research Scientist III,Workday,"Milpitas, California, United States of America",US,https://hpe.wd5.myworkdayjobs.com/acjobsite/job/Milpitas-California-United-States-of-America/HPE-Labs---AI-ML-Research-Scientist-III_1209875,No,New
+07/10/2026,nvidia,Deep Learning Performance Architect,Workday,2 Locations,Unverified,https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/China-Shanghai/Deep-Learning-Performance-Architect_JR2020857,No,New
+07/10/2026,nvidia,Deep Learning Compiler Engineer - CUDA,Workday,2 Locations,Unverified,https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/China-Shanghai/Deep-Learning-Compiler-Engineer---CUDA_JR2020800,No,New
+07/10/2026,nvidia,"Senior Software Engineer, Fabric Networking - GPU",Workday,4 Locations,Unverified,https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/India-Bengaluru/Senior-Software-Engineer--Fabric-Networking---GPU_JR2020447,No,New
+07/10/2026,nvidia,"Speech LLM Engineer, Voice-First Agentic AI",Workday,2 Locations,Unverified,https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/Vietnam-Ho-Chi-Minh-City/Speech-LLM-Engineer--Voice-First-Agentic-AI_JR2020909,No,New
+07/10/2026,ngc,Cyber Systems Engineer - Level 2,Workday,United States-Colorado-Schriever AFB,US,https://ngc.wd1.myworkdayjobs.com/northrop_grumman_external_site/job/United-States-Colorado-Schriever-AFB/Cyber-Systems-Engineer---Level-2_R10239749,No,New
+07/10/2026,pressganey,Senior Software Engineer/Data Engineer(Seattle/Provo ),Workday,"Provo, UT",US,https://pressganey.wd1.myworkdayjobs.com/careers/job/Provo-UT/Senior-Software-Engineer-Data-Engineer_R26_0000000013,No,New
+07/10/2026,salesforce,Software Engineering LMTS,Workday,2 Locations,Unverified,https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/India---Hyderabad/Software-Engineering-LMTS_JR346275-1,No,New
+07/10/2026,salesforce,Software Engineer (Backend) - MTS,Workday,California - Redwood City,US,https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/California---Redwood-City/Software-Engineer--Backend----MTS_JR342796,No,New
+07/10/2026,snapchat,"Machine Learning Engineer, Level 3",Workday,6 Locations,Unverified,https://snapchat.wd1.myworkdayjobs.com/snap/job/Palo-Alto-California/Machine-Learning-Engineer--Level-3_Q326SWEML1,No,New
+07/10/2026,sky,AI Engineer (Google),Workday,2 Locations,Unverified,https://sky.wd3.myworkdayjobs.com/tux/job/Osterley/AI-Engineer--Google-_R0056925,No,New
+07/10/2026,tencent,(Senior) Cloud & AI Solution Architect,Workday,2 Locations,Unverified,https://tencent.wd1.myworkdayjobs.com/tencent_careers/job/United-Kindom-London/XMLNAME--Senior--Cloud---AI-Solution-Architect_R107760,No,New
+07/10/2026,usbank,"Senior Software Engineer, Digital Analytics",Workday,2 Locations,Unverified,https://usbank.wd1.myworkdayjobs.com/us_bank_careers/job/Hopkins-MN/Senior-Software-Engineer--Digital-Analytics_2026-0019967,No,New
 07/10/2026,checkr,Senior Data Engineer,Greenhouse,"Denver, Colorado, United States; San Francisco, California, United States",US,https://job-boards.greenhouse.io/checkr/jobs/7650448,No,New
 07/10/2026,esri,Software Development Engineer,Greenhouse,"Vienna, Virginia, United States",US,https://www.esri.com/careers/5176556007?gh_jid=5176556007,No,New
 07/10/2026,humaninterest,Senior Data Engineer,Greenhouse,"United States, Remote",US,https://job-boards.greenhouse.io/humaninterest/jobs/8047121,No,New
