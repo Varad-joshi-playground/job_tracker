@@ -1,4 +1,61 @@
 Date Found,Company,Role,ATS,Location,Loc Confidence,Link,Applied?,Source
+07/30/2026,circadiahealth,Data Engineer,Lever,El Segundo,US,https://jobs.lever.co/circadiahealth/2804eb85-ed80-4d45-9467-af2b6363ffbb,No,New
+07/30/2026,discord,Data Engineer,Greenhouse,San Francisco Bay Area,US,https://job-boards.greenhouse.io/discord/jobs/8614971002,No,New
+07/30/2026,discord,"Senior Data Engineer, Ads",Greenhouse,San Francisco Bay Area,US,https://job-boards.greenhouse.io/discord/jobs/8299493002,No,New
+07/30/2026,fartherfinance,"Senior Software Engineer, Test Infrastructure",Greenhouse,Hybrid - New York,US,https://job-boards.greenhouse.io/fartherfinance/jobs/4570587005,No,New
+07/30/2026,greenpointtechnologies,Systems Engineer,Greenhouse,"Bothell, Washington, United States",US,https://job-boards.greenhouse.io/greenpointtechnologies/jobs/5370339008,No,New
+07/30/2026,honeycomb,Senior Software Engineer II - Agentic Intelligence,Greenhouse,Remote - United States,US,https://job-boards.greenhouse.io/honeycomb/jobs/5373987008,No,New
+07/30/2026,pipetechnologies,Senior Data Scientist,Greenhouse,"Remote, United States",US,https://job-boards.greenhouse.io/pipetechnologies/jobs/4341094009,No,New
+07/30/2026,sofi,"Data Analyst, Pricing",Greenhouse,CA - San Francisco; WA - Seattle; UT - Cottonwood Heights,US,https://sofi.com/careers/job/7820964003?gh_jid=7820964003,No,New
+07/30/2026,torcrobotics,"Senior Software Engineer - Metrics for Release, Implementation",Greenhouse,Remote,Unverified,https://job-boards.greenhouse.io/torcrobotics/jobs/8654062002,No,New
+07/30/2026,spacex,"Application Software Engineer, Applied AI",Greenhouse,"Redmond, WA",US,https://boards.greenhouse.io/spacex/jobs/8658744002?gh_jid=8658744002,No,New
+07/30/2026,spacex,"Application Software Engineer, Applied AI",Greenhouse,"Bastrop, TX",US,https://boards.greenhouse.io/spacex/jobs/8658737002?gh_jid=8658737002,No,New
+07/30/2026,spacex,"Application Software Engineer, Applied AI",Greenhouse,"Cape Canaveral, FL",US,https://boards.greenhouse.io/spacex/jobs/8658743002?gh_jid=8658743002,No,New
+07/30/2026,spacex,"Application Software Engineer, Applied AI",Greenhouse,"Vandenberg, CA",US,https://boards.greenhouse.io/spacex/jobs/8658742002?gh_jid=8658742002,No,New
+07/30/2026,spacex,"Application Software Engineer, Applied AI",Greenhouse,"McGregor, TX",US,https://boards.greenhouse.io/spacex/jobs/8658740002?gh_jid=8658740002,No,New
+07/30/2026,spacex,"Application Software Engineer, Applied AI",Greenhouse,"Starbase, TX",US,https://boards.greenhouse.io/spacex/jobs/8658738002?gh_jid=8658738002,No,New
+07/30/2026,spacex,"Application Software Engineer, Applied AI",Greenhouse,"Hawthorne, CA",US,https://boards.greenhouse.io/spacex/jobs/8658628002?gh_jid=8658628002,No,New
+07/30/2026,twilio,Software Engineer (L2),Greenhouse,Remote - US,US,https://job-boards.greenhouse.io/twilio/jobs/8097672,No,New
+07/30/2026,vercel,IT Systems Engineer,Greenhouse,"Hybrid - San Francisco, New York City, London",US,https://job-boards.greenhouse.io/vercel/jobs/6020852004,No,New
+07/30/2026,vast,Systems Engineer,Greenhouse,"Long Beach, California, United States",US,https://boards.greenhouse.io/vast/jobs/4701302006?gh_jid=4701302006,No,New
+07/30/2026,gdms,Missile Tracking Systems Engineer (Space Force) (Sign On Bonus Available),iCIMS,Not specified,Unverified,https://careers-gdms.icims.com/jobs/73721/missile-tracking-systems-engineer-%28space-force%29-%28sign-on-bonus-available%29/job,No,New
+07/30/2026,gdms,Missile Tracking Systems Engineer (Space Force) (Sign On Bonus Available),iCIMS,Not specified,Unverified,https://careers-gdms.icims.com/jobs/73723/missile-tracking-systems-engineer-%28space-force%29-%28sign-on-bonus-available%29/job,No,New
+07/30/2026,industechnology,Sr. Data Analytics Specialist,iCIMS,Not specified,Unverified,https://careers-industechnology.icims.com/jobs/2322/sr.-data-analytics-specialist/job,No,New
+07/30/2026,lmi,Data Scientist (Vantage)   Clearance Required,iCIMS,Not specified,Unverified,https://careers-lmi.icims.com/jobs/14369/data-scientist-%28vantage%29---clearance-required/job,No,New
+07/30/2026,argonne,AI Research Specialist in Computational Biology - TERM,Workday,"Lemont, IL USA",US,https://argonne.wd1.myworkdayjobs.com/argonne_careers/job/Lemont-IL-USA/AI-Research-Specialist-in-Computational-Biology---TERM_423207-1,No,New
+07/30/2026,avav,Systems Engineer III,Workday,"Huntsville, AL",US,https://avav.wd1.myworkdayjobs.com/avav/job/Huntsville-AL/Systems-Engineer-III_8286,No,New
+07/30/2026,axos,JBATA- AI Engineer,Workday,"HQ - San Diego, CA",US,https://axos.wd5.myworkdayjobs.com/axos/job/HQ---San-Diego-CA/JBATA--AI-Engineer_JR5108-1,No,New
+07/30/2026,bah,AI and ML Engineer,Workday,"Ashburn, VA",US,https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Ashburn-VA/AI-and-ML-Engineer_R0245749,No,New
+07/30/2026,bmo,"Senior Analyst, Finance AI & Analytics",Workday,"Chicago, IL, USA",US,https://bmo.wd3.myworkdayjobs.com/privileged/job/Chicago-IL-USA/Senior-Analyst--Finance-AI---Analytics_R260021719,No,New
+07/30/2026,dxctechnology,"Software Engineer, Assure Commercialization Platform",Workday,CRI - SJ - SAN JOSE,US,https://dxctechnology.wd1.myworkdayjobs.com/dxcjobs/job/CRI---SJ---SAN-JOSE/Software-Engineer--Assure-Commercialization-Platform_51585842,No,New
+07/30/2026,earlywarning,Data Engineer II - Zelle,Workday,4 Locations,Unverified,https://earlywarning.wd5.myworkdayjobs.com/earlywarningcareers/job/Scottsdale/Data-Engineer-II---Zelle_REQ2026747-1,No,New
+07/30/2026,cvshealth,Senior Analyst - Software Development Engineering,Workday,IL - Work from home,US,https://cvshealth.wd1.myworkdayjobs.com/cvs_health_careers/job/IL---Work-from-home/Senior-Analyst---Software-Development-Engineering_R0980711,No,New
+07/30/2026,icf,ServiceNow Architect – AI Focused (Public Trust),Workday,"Reston, VA",US,https://icf.wd5.myworkdayjobs.com/icfexternal_career_site/job/Reston-VA/ServiceNow-Architect---AI-Focused--Public-Trust-_R2602621,No,New
+07/30/2026,micron,ESI AI Strategy Engineer,Workday,"Boise, ID - Main Site",US,https://micron.wd1.myworkdayjobs.com/external/job/Boise-ID---Main-Site/ESI-AI-Strategy-Engineer_JR107338,No,New
+07/30/2026,nvidia,Senior System Software Engineer - CPU SoC Boot Firmware,Workday,"US, CA, Santa Clara",US,https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-CA-Santa-Clara/Senior-System-Software-Engineer---Tegra-Boot-Stack-Firmware_JR2021797,No,New
+07/30/2026,ghr,Consumer Product Strategy Analyst III (Analytics & Model Development),Workday,13 Locations,Unverified,https://ghr.wd1.myworkdayjobs.com/us-emplsv/job/Charlotte/Consumer-Product-Strategy-Analyst-III--Analytics---Model-Development-_26026824,No,New
+07/30/2026,reagroup,Senior Data Engineer,Workday,"Richmond, Melbourne VIC",US,https://reagroup.wd3.myworkdayjobs.com/reacareers/job/Richmond-Melbourne-VIC/Senior-Data-Engineer_R0015490,No,New
+07/30/2026,pwc,GenAI Python Systems Engineer – Experienced Associate,Workday,63 Locations,Unverified,https://pwc.wd3.myworkdayjobs.com/us_experienced_careers/job/IL-Chicago/GenAI-Python-Systems-Engineer---Experienced-Associate_727083WD,No,New
+07/30/2026,pae,Knowledge Management Specialist / Data Scientist,Workday,US-HI-Camp H.M. Smith,US,https://pae.wd1.myworkdayjobs.com/amentum_careers/job/US-HI-Camp-HM-Smith/Knowledge-Management-Specialist---Technical-Writer_R0166863,No,New
+07/30/2026,towerloan,Software Engineer,Workday,Flowood MS,US,https://towerloan.wd12.myworkdayjobs.com/tower_loan_careers/job/Flowood-MS/Software-Engineer_JR2027,No,New
+07/30/2026,transunion,"Data Scientist, Financial Services Consulting",Workday,"Chicago, Illinois",US,https://transunion.wd5.myworkdayjobs.com/transunion/job/Chicago-Illinois/Data-Scientist--Financial-Services-Consulting_19040697,No,New
+07/30/2026,transunion,Data Scientist - Insurance,Workday,"Chicago, Illinois",US,https://transunion.wd5.myworkdayjobs.com/transunion/job/Chicago-Illinois/Data-Scientist---Insurance_19039694,No,New
+07/30/2026,usbank,Mid-Level AI Platform Engineers,Workday,7 Locations,Unverified,https://usbank.wd1.myworkdayjobs.com/us_bank_careers/job/Chicago-IL/Mid-Level-AI-Platform-Engineers_2026-0017769,No,New
+07/30/2026,vanguard,"Data Scientist, Specialist",Workday,"Malvern, PA",US,https://vanguard.wd5.myworkdayjobs.com/vanguard_external/job/Malvern-PA/Data-Scientist--Specialist_180395-1,No,New
+07/30/2026,augmodo,Software Engineer - CV Tooling,Ashby,United States,US,https://jobs.ashbyhq.com/augmodo/47b48f32-7c36-4963-b7ec-786c920ccba1,No,New
+07/30/2026,commure,"Senior Software Engineer, RCM Email Agents",Ashby,"Rio de Janeiro, Brazil",US,https://jobs.ashbyhq.com/commure/f34a402a-9cec-4093-af94-aefd7d958991,No,New
+07/30/2026,govwell,"Software Engineer, Payments",Ashby,"New York, NY",US,https://jobs.ashbyhq.com/govwell/4d5a429f-5d8c-42b4-a39a-6f1c7868b648,No,New
+07/30/2026,harvey,"Senior Software Engineer, Backend Platform",Ashby,San Francisco,US,https://jobs.ashbyhq.com/harvey/7c71db12-6edb-441e-b76c-847ef6d00527,No,New
+07/30/2026,harvey,"Senior Software Engineer, Production Engineering",Ashby,New York,US,https://jobs.ashbyhq.com/harvey/dbd9a156-a841-42a0-a3e5-beed8de60a7c,No,New
+07/30/2026,harvey,"Senior Software Engineer, Production Engineering",Ashby,San Francisco,US,https://jobs.ashbyhq.com/harvey/6a840e0d-6af8-4ad6-a182-7534ce64e7e2,No,New
+07/30/2026,lambda,Senior Software Engineer - Developer Productivity,Ashby,San Francisco Office (Fremont St),US,https://jobs.ashbyhq.com/lambda/42c2fabb-bd23-46c1-b86d-6dc004a13392,No,New
+07/30/2026,llamaindex,AI Content Engineer,Ashby,San Francisco,US,https://jobs.ashbyhq.com/llamaindex/36a0249e-a672-44df-a08e-b5a5523dec26,No,New
+07/30/2026,nash,Senior Data Scientist,Ashby,San Francisco,US,https://jobs.ashbyhq.com/nash/472354ab-cc88-4716-8663-896da3f1e5b0,No,New
+07/30/2026,reevo,Builder - Forward Deployed Engineer,Ashby,San Francisco or Santa Clara,US,https://jobs.ashbyhq.com/reevo/5a24a74a-4c98-4344-a5a0-118cdb873b2f,No,New
+07/30/2026,standardbots,"AI Applications Engineer (Glen Cove, NY)",Ashby,"Glen Cove, NY",US,https://jobs.ashbyhq.com/standardbots/6d34a165-179d-4bb2-a862-82d6f450eca1,No,New
+07/30/2026,taptapsend,Analytics Engineer,Ashby,New York,US,https://jobs.ashbyhq.com/taptapsend/7b6d9fb2-ab3d-4054-bfb8-b09d8af9ae47,No,New
+07/30/2026,teambridge,Backend Software Engineer,Ashby,"San Francisco, California",US,https://jobs.ashbyhq.com/teambridge/9583f575-d55f-4f2e-8f1f-1136ba3a391c,No,New
+07/30/2026,vanta,Senior Analytics Engineer,Ashby,Remote U.S.,US,https://jobs.ashbyhq.com/vanta/1989a49f-227e-4928-b068-8ff24af88541,No,New
 07/30/2026,lyrahealth,Senior AI/ML Backend Engineer,Lever,United States,US,https://jobs.lever.co/lyrahealth/c072d736-c169-49dc-805b-1983eea74876,No,New
 07/30/2026,lyrahealth,Senior Software Engineer,Lever,United States,US,https://jobs.lever.co/lyrahealth/57a37acd-f0f2-4322-abe8-4197db4dd643,No,New
 07/30/2026,woven-by-toyota,"Software Engineer, Calibration (Analysis/Tool)",Lever,"Ann Arbor, MI",US,https://jobs.lever.co/woven-by-toyota/e5ebcad9-b648-4d04-8c15-0d8dffb36190,No,New
