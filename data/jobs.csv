@@ -1,4 +1,58 @@
 Date Found,Company,Role,ATS,Location,Loc Confidence,Link,Applied?,Source
+08/18/2026,venusaero,Senior RF Systems Engineer,Lever,"Houston, TX",US,https://jobs.lever.co/venusaero/ef3f032d-4e4c-439d-ad1b-8c23eacf69ec,No,New
+08/18/2026,adyen,Optimization Data Analyst,Greenhouse,San Francisco,US,https://job-boards.greenhouse.io/adyen/jobs/8129143,No,New
+08/18/2026,atomicmachines,AI and Computational Geometry Engineer,Greenhouse,"Emeryville, California",US,https://job-boards.greenhouse.io/atomicmachines/jobs/4374694009,No,New
+08/18/2026,boxinc,"Senior Software Engineer, Microservice Foundation",Greenhouse,"Redwood City, CA, United States",US,https://job-boards.greenhouse.io/boxinc/jobs/8133237,No,New
+08/18/2026,kairospower,"Software Engineer, Cyber Physical Systems",Greenhouse,"Alameda, CA or Albuquerque, NM",US,https://job-boards.greenhouse.io/kairospower/jobs/6093018004,No,New
+08/18/2026,life360,"Senior Software Engineer II, (AI Native)",Greenhouse,"Remote, USA; Remote, Canada",US,https://job-boards.greenhouse.io/life360/jobs/8728404002,No,New
+08/18/2026,nice,IT Software Engineer,Greenhouse,"USA - Atlanta, GA; USA - Hoboken, NJ; USA - Sandy, UT",US,https://boards.eu.greenhouse.io/nice/jobs/4862935101?gh_jid=4862935101,No,New
+08/18/2026,otter,Operations Analytics Engineer,Greenhouse,"Los Angeles, CA",US,https://job-boards.greenhouse.io/otter/jobs/8654629002,No,New
+08/18/2026,purestorage,"Forward Deployed Engineering, Portworx",Greenhouse,"Santa Clara, California",US,https://job-boards.greenhouse.io/purestorage/jobs/8113513,No,New
+08/18/2026,rocketlab,Senior Software Engineer I/II - Digital Engineering,Greenhouse,"Littleton, CO",US,https://job-boards.greenhouse.io/rocketlab/jobs/7893882003,No,New
+08/18/2026,taskrabbit,Senior Data Engineer,Greenhouse,"San Francisco, California, United States",US,https://job-boards.greenhouse.io/taskrabbit/jobs/8130488,No,New
+08/18/2026,taskrabbit,Senior Software Engineer,Greenhouse,"San Francisco, California, United States",US,https://job-boards.greenhouse.io/taskrabbit/jobs/8122383,No,New
+08/18/2026,spacex,"Thermal Engineer, AI Satellites (Starmind)",Greenhouse,"Bastrop, TX",US,https://boards.greenhouse.io/spacex/jobs/8728358002?gh_jid=8728358002,No,New
+08/18/2026,e2zintegral,Data Science Ai Engineer,iCIMS,Not specified,Unverified,https://careers-integralfed.icims.com/jobs/5402/data-science-ai-engineer/job,No,New
+08/18/2026,e2zintegral,Cloud Sre Systems Engineer,iCIMS,Not specified,Unverified,https://careers-integralfed.icims.com/jobs/5399/cloud-sre-systems-engineer/job,No,New
+08/18/2026,gannettfleming,"Senior Solutions Engineer, Asset Management",iCIMS,Not specified,Unverified,https://careers-gannettfleming.icims.com/jobs/14568/senior-solutions-engineer%2c-asset-management/job,No,New
+08/18/2026,gdms,Senior Systems Engineer   Cryptographic Systems,iCIMS,Not specified,Unverified,https://careers-gdms.icims.com/jobs/74402/senior-systems-engineer---cryptographic-systems/job,No,New
+08/18/2026,hanger,Systems Engineer Iv,iCIMS,Not specified,Unverified,https://careers-hanger.icims.com/jobs/31992/systems-engineer-iv/job,No,New
+08/18/2026,kinaxis,Forward Deployed Engineer I,iCIMS,Not specified,Unverified,https://careers-kinaxis.icims.com/jobs/35145/forward-deployed-engineer-i/job,No,New
+08/18/2026,unitypoint,Data Scientist Associate Ai Solutions,iCIMS,Not specified,Unverified,https://careers-unitypoint.icims.com/jobs/186050/data-scientist-associate-ai-solutions/job,No,New
+08/18/2026,avisbudget,Artificial Intelligence Revenue Analyst,Workday,"379 Interpace Pkwy, Parsippany, 07054",US,https://avisbudget.wd1.myworkdayjobs.com/abg_careers/job/379-Interpace-Pkwy-Parsippany-07054/Artificial-Intelligence-Revenue-Analyst_R0190308,No,New
+08/18/2026,bydeluxe,Senior Software Engineer,Workday,US-CA-Burbank,US,https://bydeluxe.wd5.myworkdayjobs.com/deluxe_external/job/US-CA-Burbank/Senior-Software-Engineer_R0015666,No,New
+08/18/2026,cisco,"Software Engineer, CX Engineering",Workday,"RTP, North Carolina, US",US,https://cisco.wd5.myworkdayjobs.com/cisco_careers/job/RTP-North-Carolina-US/Software-Engineer--CX-Engineering_2021701,No,New
+08/18/2026,cisco,Data Science Engineer II  (Full Time) - United States,Workday,"San Jose, California, US",US,https://cisco.wd5.myworkdayjobs.com/cisco_careers/job/San-Jose-California-US/Data-Science-Engineer-II---Full-Time----United-States_2023062,No,New
+08/18/2026,costar,Senior Analytics Data Engineer - Homes.com,Workday,US-VA Arlington,US,https://costar.wd1.myworkdayjobs.com/costarcareers/job/US-VA-Arlington/Senior-Analytics-Data-Engineer---Homescom_R39629,No,New
+08/18/2026,csiweb,Software Engineer II,Workday,"Remote, USA",US,https://csiweb.wd1.myworkdayjobs.com/csi_careers/job/Remote-USA/Software-Engineer-II_R-100523,No,New
+08/18/2026,dxctechnology,Sr Analyst I Software Engineering,Workday,USA - TX - PLANO,US,https://dxctechnology.wd1.myworkdayjobs.com/dxcjobs/job/USA---TX---PLANO/Sr-Analyst-I-Software-Engineering_51587227,No,New
+08/18/2026,fiserv,AI Accelerated Senior Java Engineer,Workday,"Berkeley Heights, New Jersey",US,https://fiserv.wd5.myworkdayjobs.com/ext/job/Berkeley-Heights-New-Jersey/AI-Accelerated-Senior-Java-Engineer_R-10398709,No,New
+08/18/2026,homedepot,Associate Data Scientist - Decision Analytics,Workday,"STORE SUPPORT CENTER, ATLANTA - 9090",US,https://homedepot.wd5.myworkdayjobs.com/careerdepot/job/STORE-SUPPORT-CENTER-ATLANTA---9090/Associate-Data-Scientist---Decision-Analytics_Req190547,No,New
+08/18/2026,homedepot,"Senior Analyst, Decision Analytics",Workday,"STORE SUPPORT CENTER, ATLANTA - 9090",US,https://homedepot.wd5.myworkdayjobs.com/careerdepot/job/STORE-SUPPORT-CENTER-ATLANTA---9090/Senior-Analyst--Decision-Analytics_Req190160,No,New
+08/18/2026,icwgroup,AI Architect,Workday,"San Diego, CA",US,https://icwgroup.wd5.myworkdayjobs.com/icw/job/San-Diego-CA/AI-Architect_JR101325,No,New
+08/18/2026,lendingclub,Banking & Deposits Data Analyst,Workday,"Boston, MA",US,https://lendingclub.wd1.myworkdayjobs.com/external/job/Boston-MA/Banking---Deposits-Data-Analyst_R0007452,No,New
+08/18/2026,capitalone,AI Engineer,Workday,3 Locations,Unverified,https://capitalone.wd12.myworkdayjobs.com/capital_one/job/McLean-VA/AI-Engineer_R249333-1,No,New
+08/18/2026,micron,Sr. Full Stack AI Software Engineer,Workday,"Boise, ID - Main Site",US,https://micron.wd1.myworkdayjobs.com/external/job/Boise-ID---Main-Site/Sr-Full-Stack-AI-Software-Engineer_JR108967,No,New
+08/18/2026,micron,Sr. Full Stack AI Software Engineer,Workday,"Boise, ID - Main Site",US,https://micron.wd1.myworkdayjobs.com/external/job/Boise-ID---Main-Site/Sr-Full-Stack-AI-Software-Engineer_JR108522,No,New
+08/18/2026,jci,HVAC Building Controls Systems Engineer,Workday,West Chester-Ohio-United States of America,US,https://jci.wd5.myworkdayjobs.com/jci/job/West-Chester-Ohio-United-States-of-America/HVAC-Building-Controls-Systems-Engineer_WD30276461,No,New
+08/18/2026,ncratleos,"PS Senior ATM Integration Software Engineer, Financial Services",Workday,"ATLANTA, GA, USA",US,https://ncratleos.wd1.myworkdayjobs.com/ext_atleos_us/job/ATLANTA-GA-USA/PS-Engineer-IV_R1152763-2,No,New
+08/18/2026,nvidia,Compiler Engineer - AI Inference,Workday,"US, CA, Santa Clara",US,https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-CA-Santa-Clara/AI-Compiler-Engineer_JR2014497-1,No,New
+08/18/2026,pacificlife,Senior Data Engineer,Workday,2 Locations,Unverified,https://pacificlife.wd1.myworkdayjobs.com/pacificlifecareers/job/Charlotte-128/Senior-Data-Engineer_R17554-1,No,New
+08/18/2026,pae,Early Career Payload Integration Systems Engineer (ES2),Workday,US-AL-Huntsville,US,https://pae.wd1.myworkdayjobs.com/amentum_careers/job/US-AL-Huntsville/Early-Career-Payload-Integration-Systems-Engineer--ES2-_R0168556,No,New
+08/18/2026,pae,Systems Engineer - SPIE,Workday,US-AL-Huntsville,US,https://pae.wd1.myworkdayjobs.com/amentum_careers/job/US-AL-Huntsville/Systems-Engineer---SPIE_R0168562,No,New
+08/18/2026,tysonfoods,IT Data Engineer II MXT,Workday,"TRC IT HUB - Torreon, El Fresno, Coahuila, Mexico",US,https://tysonfoods.wd5.myworkdayjobs.com/tsn/job/TRC-IT-HUB---Torreon-El-Fresno-Coahuila-Mexico/IT-Data-Engineer-II-MXT_R0480085-2,No,New
+08/18/2026,tysonfoods,IT Data Engineer II MXT,Workday,"TRC IT HUB - Torreon, El Fresno, Coahuila, Mexico",US,https://tysonfoods.wd5.myworkdayjobs.com/tyit/job/TRC-IT-HUB---Torreon-El-Fresno-Coahuila-Mexico/IT-Data-Engineer-II-MXT_R0480085,No,New
+08/18/2026,workday,Sr. AI Deployment Architect,Workday,2 Locations,Unverified,https://workday.wd5.myworkdayjobs.com/workday/job/USA-IL-Chicago/Principal-Functional-Consultant--AI-Practice_JR-0107274,No,New
+08/18/2026,crusoe,Senior Strategic Sourcing Data Analyst,Ashby,"Denver, CO - US",US,https://jobs.ashbyhq.com/crusoe/13528b09-5bba-46a7-924d-a7fa2106443b,No,New
+08/18/2026,crusoe,Strategic Sourcing Data Analyst,Ashby,"Denver, CO - US",US,https://jobs.ashbyhq.com/crusoe/b5dc0c85-b7dc-46c3-a23a-a54ba6a979d5,No,New
+08/18/2026,ema,AI Application Engineer (Contractor role),Ashby,San Francisco Bay Area,US,https://jobs.ashbyhq.com/ema/ab094389-25ec-417b-b646-06969d166d06,No,New
+08/18/2026,formenergy,Senior Systems Engineer,Ashby,"Berkeley, CA",US,https://jobs.ashbyhq.com/formenergy/a1f357b2-d102-4863-9042-0efd654f46ff,No,New
+08/18/2026,koahlabs,"Software Engineer, Early Career",Ashby,San Francisco,US,https://jobs.ashbyhq.com/koahlabs/197c931d-3cda-44b3-b26b-470976730808,No,New
+08/18/2026,lavendo,"Forward Deployed Engineer, AI Training Data (Redwood City, CA)",Ashby,Redwood City,US,https://jobs.ashbyhq.com/lavendo/5c17713c-a644-4c4a-a702-c9e854c714e2,No,New
+08/18/2026,meridianlink,Software Engineer II,Ashby,US Remote,US,https://jobs.ashbyhq.com/meridianlink/c9a9ca80-af80-4fe9-b4b7-9c0d026ee99b,No,New
+08/18/2026,polymarket,Senior Intelligence Systems Engineer,Ashby,Remote,Unverified,https://jobs.ashbyhq.com/polymarket/42e9a690-9f4c-4810-8524-5817cb32db51,No,New
+08/18/2026,whatnot,"Software Engineer, Trust & Risk",Ashby,"San Francisco, CA",US,https://jobs.ashbyhq.com/whatnot/abd1dc38-901a-49aa-8cdb-18de379c59c3,No,New
+08/18/2026,adgblatt,Business Systems & Data Analyst,BambooHR,"Oklahoma City, Oklahoma",US,https://adgblatt.bamboohr.com/careers/55,No,New
 08/18/2026,integrate,Senior Full Stack Software Engineer,Lever,"Seattle, WA",US,https://jobs.lever.co/integrate/d13ebe10-cb66-46a0-955f-b15352389090,No,New
 08/18/2026,revealtech,3D Graphics Software Engineer,Lever,"Remote, USA",US,https://jobs.lever.co/revealtech/bb78fcee-1680-4526-afe3-50682b97df64,No,New
 08/18/2026,zoox,Data Scientist - Perception Verification and Validation,Lever,"Boston, MA",US,https://jobs.lever.co/zoox/44256995-b7d1-4c4a-b83b-3c55b69dedf7,No,New
