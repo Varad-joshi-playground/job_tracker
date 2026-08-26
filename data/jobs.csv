@@ -1,4 +1,32 @@
 Date Found,Company,Role,ATS,Location,Loc Confidence,Link,Applied?,Source
+08/25/2026,kitware,Software Engineer,Lever,"Clifton Park, New York",US,https://jobs.lever.co/kitware/2037d8ac-2c76-4b33-a72c-acb0500cf09e,No,New
+08/25/2026,ennoblecare,Junior Software Engineer,Greenhouse,United States,US,https://job-boards.greenhouse.io/ennoblecare/jobs/4708416006,No,New
+08/25/2026,spacex,"Data Engineer, Hardware Reliability (Starlink)",Greenhouse,"Bastrop, TX",US,https://boards.greenhouse.io/spacex/jobs/8623125002?gh_jid=8623125002,No,New
+08/25/2026,spacex,"Data Scientist, Hardware Reliability (Starlink)",Greenhouse,"Bastrop, TX",US,https://boards.greenhouse.io/spacex/jobs/8748827002?gh_jid=8748827002,No,New
+08/25/2026,gdms,Systems Engineer – Entry Level,iCIMS,Not specified,Unverified,https://careers-gdms.icims.com/jobs/74466/systems-engineer-%e2%80%93-entry-level/job,No,New
+08/25/2026,odysseyconsult,Senior Systems Engineer,iCIMS,Not specified,Unverified,https://careers-odysseyconsult.icims.com/jobs/9109/senior-systems-engineer/job,No,New
+08/25/2026,cisco,Software Engineering Technical Leader,Workday,"Milpitas, California, US",US,https://cisco.wd5.myworkdayjobs.com/cisco_careers/job/Milpitas-California-US/Software-Engineering-Technical-Leader_2004007,No,New
+08/25/2026,cox,"Entry Level Software Engineer (Burlington, VT)",Workday,Burlington VT,US,https://cox.wd1.myworkdayjobs.com/cox_external_career_site_1/job/Burlington-VT/Entry-Level-Software-Engineer--Burlington--VT-_R202681784,No,New
+08/25/2026,nvidia,"Senior Software Engineer, Developer Tools for Cloud",Workday,3 Locations,Unverified,https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-WA-Redmond/Senior-Software-Engineer--Developer-Tools-for-Cloud_JR2011154,No,New
+08/25/2026,nvidia,"Senior Application Engineer, HPC and AI for Physics",Workday,2 Locations,Unverified,https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-CA-Remote/Senior-Application-Engineer--HPC-and-AI-for-Physics_JR2023469,No,New
+08/25/2026,nvidia,System Software Engineer - Performance Verification Infrastructure,Workday,"US, CA, Santa Clara",US,https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-CA-Santa-Clara/System-Software-Engineer---Performance-Verification-Infrastructure_JR2021574,No,New
+08/25/2026,spgi,"Software Engineer, Backend Development (Python)",Workday,2 Locations,Unverified,https://spgi.wd5.myworkdayjobs.com/spgi_internal/job/Hyderabad-Telangana/Software-Engineer--Backend-Development--Python-_331428,No,New
+08/25/2026,spgi,"Software Engineer, Backend Development (Python)",Workday,2 Locations,Unverified,https://spgi.wd5.myworkdayjobs.com/spgi_careers/job/Hyderabad-Telangana/Software-Engineer--Backend-Development--Python-_331428-1,No,New
+08/25/2026,tamus,Utilities Data Analyst,Workday,"College Station, TX",US,https://tamus.wd1.myworkdayjobs.com/system-wide_external/job/College-Station-TX/Utilities-Data-Analyst_R-092310,No,New
+08/25/2026,tamus,Utilities Data Analyst,Workday,"College Station, TX",US,https://tamus.wd1.myworkdayjobs.com/tamu_external/job/College-Station-TX/Utilities-Data-Analyst_R-092310-1,No,New
+08/25/2026,visa,"Senior Software Engineer, Power Platform, Copilot Studio, Azure",Workday,"US - Austin, TX",US,https://visa.wd5.myworkdayjobs.com/visa/job/US---Austin-TX/Senior-Software-Engineer--Power-Platform--Copilot-Studio--Azure_REF087684W,No,New
+08/25/2026,workday,Software Development Engineer - US Federal,Workday,USA.VA.Reston,US,https://workday.wd5.myworkdayjobs.com/workday/job/USAVAReston/Software-Development-Engineer---US-Federal_JR-0109614,No,New
+08/25/2026,eli,Machine Learning Scientist,Ashby,Montreal (in-person),US,https://jobs.ashbyhq.com/eli/dd8575a8-60e0-472f-a8b9-6f7a6478699d,No,New
+08/25/2026,embedding-vc,AI Engineer (Early Career),Ashby,San Francisco Bay Area,US,https://jobs.ashbyhq.com/embedding-vc/5c8433ea-c7e6-4350-bbd5-2889e7fdb2b1,No,New
+08/25/2026,hyperbolic,Member of Technical Staff - GPU Infrastructure,Ashby,"San Francisco, CA",US,https://jobs.ashbyhq.com/hyperbolic/0cd2cbf3-bc38-4e02-84c1-ac7a7c285105,No,New
+08/25/2026,hyperbolic,Member of Technical Staff - Platform,Ashby,"San Francisco, CA",US,https://jobs.ashbyhq.com/hyperbolic/78ff7797-58d4-435a-a229-58425036d716,No,New
+08/25/2026,krea,"Software Engineer, Product",Ashby,San Francisco,US,https://jobs.ashbyhq.com/krea/4d7513e2-8fbe-47df-84c0-dbb0c8ba1fc9,No,New
+08/25/2026,langchain,"Software Engineer, Database Infrastructure",Ashby,"San Francisco, CA",US,https://jobs.ashbyhq.com/langchain/9a0ae8b4-af0c-4551-b9cd-284fe67e1935,No,New
+08/25/2026,perplexity,"Member of Technical Staff (Software Engineer, Agent Harness)",Ashby,San Francisco,US,https://jobs.ashbyhq.com/perplexity/0a74edd7-830a-4825-946c-28801a057127,No,New
+08/25/2026,probook,Forward Deployed Engineer,Ashby,Manhattan,US,https://jobs.ashbyhq.com/probook/83a9ab68-0f4c-437f-8d9a-2566eaf9aba6,No,New
+08/25/2026,prophet-security,"Software Engineer, Backend New Graduate",Ashby,Palo Alto (Hybrid),US,https://jobs.ashbyhq.com/prophet-security/51415149-9b19-4164-84b9-2ffa78478069,No,New
+08/25/2026,tangramflex,Senior Software Engineer,BambooHR,"Dayton, Ohio",US,https://tangramflex.bamboohr.com/careers/148,No,New
+08/25/2026,tangramflex,Mid-Level Software Engineer,BambooHR,"Dayton, Ohio",US,https://tangramflex.bamboohr.com/careers/149,No,New
 08/25/2026,zoox,Software Engineer - C++ Core Data,Lever,"Foster City, CA",US,https://jobs.lever.co/zoox/c2abc555-0105-4eda-b9c9-5c9ee28703e7,No,New
 08/25/2026,archer56,Software Engineer - (SJ2026BS),Greenhouse,"San Jose, California, United States",US,https://job-boards.greenhouse.io/archer56/jobs/7977707003,No,New
 08/25/2026,coreweave,Senior Data Engineer,Greenhouse,"Livingston, NJ / New York, NY / Sunnyvale, CA / San Francisco, CA / Bellevue, WA",US,https://coreweave.com/careers/job?4698414006&board=coreweave&gh_jid=4698414006,No,New
