@@ -1,4 +1,83 @@
 Date Found,Company,Role,ATS,Location,Loc Confidence,Link,Applied?,Source
+10/06/2026,theathletic,Data Scientist (Remote),Lever,United States,US,https://jobs.lever.co/theathletic/8ce32ac7-13d2-4b27-9bee-4ba3d6a97884,No,New
+10/06/2026,aloyoga,"Software Engineers, Retail Systems",Greenhouse,"San Ramon, California, United States",US,https://boards.greenhouse.io/aloyoga/jobs/6217901004?gh_jid=6217901004,No,New
+10/06/2026,elastic,"Analytics Engineer, HR Analytics",Greenhouse,United States,US,https://jobs.elastic.co/jobs?gh_jid=8244449&gh_jid=8244449,No,New
+10/06/2026,flagshippioneeringinc,Senior Machine Learning Scientist,Greenhouse,"Cambridge, UK",US,https://boards.greenhouse.io/flagshippioneeringinc/jobs/8805456002?gh_jid=8805456002,No,New
+10/06/2026,humaninterest,"Senior Software Engineer, Data Platform",Greenhouse,"United States, Remote",US,https://job-boards.greenhouse.io/humaninterest/jobs/8240178,No,New
+10/06/2026,idme,"Software Engineer II, Developer Portal (New Grad / Early Career)",Greenhouse,"Mountain View, California, United States",US,https://job-boards.greenhouse.io/idme/jobs/8011089003,No,New
+10/06/2026,roku,"Software Engineer, Early Careers AI/UI",Greenhouse,"San Jose, California",US,https://www.weareroku.com/jobs/8188704?gh_jid=8188704,No,New
+10/06/2026,truebill,"Software Engineer, Design Systems",Greenhouse," San Francisco, CA, Washington, D.C., New York City, N.Y., Remote (USA)",US,https://job-boards.greenhouse.io/truebill/jobs/8013696003,No,New
+10/06/2026,vulcanelements,Electrical Systems Engineer,Greenhouse,"Benson, NC",US,https://job-boards.greenhouse.io/vulcanelements/jobs/5437144008,No,New
+10/06/2026,vulcanelements,Mechanical Systems Engineer,Greenhouse,"Benson, NC",US,https://job-boards.greenhouse.io/vulcanelements/jobs/5437129008,No,New
+10/06/2026,vulcanelements,Mechanical Systems Engineer,Greenhouse,"Benson, NC",US,https://job-boards.greenhouse.io/vulcanelements/jobs/5437135008,No,New
+10/06/2026,apac-atlassian,Senior Machine Learning Systems Engineer,iCIMS,Not specified,Unverified,https://careers-apac-atlassian.icims.com/jobs/26639/senior-machine-learning-systems-engineer/job,No,New
+10/06/2026,here,Sr Ml & Ai Engineer,iCIMS,Not specified,Unverified,https://careers-here.icims.com/jobs/83454/sr-ml-%26-ai-engineer/job,No,New
+10/06/2026,here,Sr Process Systems Engineer (Spatial Analytics & Ai ),iCIMS,Not specified,Unverified,https://careers-here.icims.com/jobs/81895/sr-process-systems-engineer-%28spatial-analytics-%26-ai-%29/job,No,New
+10/06/2026,otterproducts,Sr. Bi Data Engineer,iCIMS,Not specified,Unverified,https://careers-otterproducts.icims.com/jobs/6968/sr.-bi-data-engineer/job,No,New
+10/06/2026,rws,Data Analyst,iCIMS,Not specified,Unverified,https://careers-rws.icims.com/jobs/6912/data-analyst/job,No,New
+10/06/2026,sesolutions,Senior Data Engineer   Databricks,iCIMS,Not specified,Unverified,https://careers-steampunk.icims.com/jobs/8314/senior-data-engineer---databricks/job,No,New
+10/06/2026,alegeus,Senior Software Engineer,Workday,Boston,US,https://alegeus.wd1.myworkdayjobs.com/alegeus_external_careers/job/Boston/Senior-Software-Engineer_R-101374,No,New
+10/06/2026,astreya,AI Infrastructure DC Design Engineer III,Workday,"Remote, TX",US,https://astreya.wd5.myworkdayjobs.com/life-at-astreya-opportunities/job/Remote-TX/AI-Infrastructure-DC-Design-Engineer-III_R0017839,No,New
+10/06/2026,astreya,AI Infrastructure DC Design Engineer II,Workday,"Remote, FL",US,https://astreya.wd5.myworkdayjobs.com/life-at-astreya-opportunities/job/Remote-FL/AI-Infrastructure-DC-Design-Engineer-II_R0017834,No,New
+10/06/2026,autodesk,"Senior Machine Learning Operations Developer, Inference, AI/ML Platform",Workday,3 Locations,Unverified,https://autodesk.wd1.myworkdayjobs.com/ext/job/Toronto-ON-CAN/Senior-Machine-Learning-Operations-Developer--Inference--AI-ML-Platform_26WD101354-1,No,New
+10/06/2026,blueorigin,Software Engineer III - Core Platform Infrastructure,Workday,Greater Seattle Area,US,https://blueorigin.wd5.myworkdayjobs.com/blueorigin/job/Greater-Seattle-Area/Software-Engineer-III---Core-Platform-Infrastructure_R72869,No,New
+10/06/2026,broadcom,Agentic AI Architect,Workday,2 Locations,Unverified,https://broadcom.wd1.myworkdayjobs.com/external_career/job/USA-TX-Austin---River-Place-B7/Agentic-AI-Architect_R027125-1,No,New
+10/06/2026,cambiumlearning,Senior Software Engineer (AI Applications),Workday,Remote,Unverified,https://cambiumlearning.wd1.myworkdayjobs.com/camb/job/Remote/Senior-Software-Engineer--AI-Applications-_REQ-4328-1,No,New
+10/06/2026,cat,Software Engineer - Open Search/Elastic Search/Coveo Search,Workday,2 Locations,Unverified,https://cat.wd5.myworkdayjobs.com/caterpillarcareers/job/Bangalore-Karnataka/Software-Engineer---Open-Search-Elastic-Search-Coveo-Search_R0000392793,No,New
+10/06/2026,deckers,Customer Experience Data Analyst,Workday,2 Locations,Unverified,https://deckers.wd5.myworkdayjobs.com/deckers/job/US---CO-Remote-Denver/Customer-Experience-Data-Analyst_21892,No,New
+10/06/2026,dentsuaegis,Senior Software Engineer,Workday,3 Locations,Unverified,https://dentsuaegis.wd3.myworkdayjobs.com/dan_global/job/DGS-India---Mumbai---Goregaon-Prism-Tower/Senior-Software-Engineer_R1132488-1,No,New
+10/06/2026,elevancehealth,AWS-Senior Software Engineer II -BF-40523-75591-1-JR206394,Workday,4 Locations,Unverified,https://elevancehealth.wd1.myworkdayjobs.com/carelonglobal_in/job/IND-KA-Bengaluru-Bagmane-Solarium-City/AWS-Senior-Software-Engineer-II--BF-40523-75591-1-JR206394_JR206394-1,No,New
+10/06/2026,edwards,"Senior Quality Software Engineer, NPD - IHFM",Workday,USA - California – Irvine,US,https://edwards.wd5.myworkdayjobs.com/edwardscareers/job/USA---California--Irvine/Senior-Quality-Software-Engineer--NPD---IHFM_Req-50084-1,No,New
+10/06/2026,fractal,Data Engineer,Workday,New Jersey,US,https://fractal.wd1.myworkdayjobs.com/careers/job/New-Jersey/Data-Engineer_SR-46461-1,No,New
+10/06/2026,gdit,Cloud Systems Engineer - TS/SCI with Polygraph,Workday,USA MD Bethesda,US,https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-MD-Bethesda/Cloud-Systems-Engineer---TS-SCI-with-Polygraph_RQ229487-1,No,New
+10/06/2026,globalhr,Systems Engineer I (Onsite),Workday,US-AZ-TUCSON-805 ~ 1151 E Hermans Rd ~ BLDG 805,US,https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-AZ-TUCSON-805--1151-E-Hermans-Rd--BLDG-805/Systems-Engineer-I--Onsite-_01879461,No,New
+10/06/2026,cisco,Solutions Engineer - Splunk (Remote),Workday,"Boston, Massachusetts, US",US,https://cisco.wd5.myworkdayjobs.com/cisco_careers/job/Boston-Massachusetts-US/Solutions-Engineer---Splunk--Remote-_2025693-1,No,New
+10/06/2026,cisco,Solutions Engineer,Workday,"Remote - Virginia, USA",US,https://cisco.wd5.myworkdayjobs.com/cisco_careers/job/Remote---Virginia-USA/Solutions-Engineer_2026652,No,New
+10/06/2026,cisco,"Software Engineer,  Smart Cameras",Workday,"San Francisco, California, US",US,https://cisco.wd5.myworkdayjobs.com/cisco_careers/job/San-Francisco-California-US/Software-Engineer---Smart-Cameras_2024876-1,No,New
+10/06/2026,cisco,"Software Engineer, Cisco Cloud Control / Catalyst Center",Workday,"Milpitas, California, US",US,https://cisco.wd5.myworkdayjobs.com/cisco_careers/job/Milpitas-California-US/Software-Engineer--Cisco-Cloud-Control---Catalyst-Center_2025220-1,No,New
+10/06/2026,cisco,"Software Engineer | Solution Validation, Benchmarking & Release Engineer | 8+ years",Workday,2 Locations,Unverified,https://cisco.wd5.myworkdayjobs.com/cisco_careers/job/Bangalore-India/Software-Engineer---Solution-Validation--Benchmarking---Release-Engineer---8--years_2027373,No,New
+10/06/2026,homedepot,Senior Software Engineer (Remote),Workday,GEORGIA - VIRTUAL - GA01,US,https://homedepot.wd5.myworkdayjobs.com/careerdepot/job/GEORGIA---VIRTUAL---GA01/Senior-Software-Engineer--Remote-_Req195225,No,New
+10/06/2026,globalhr,Software Engineer I (Onsite),Workday,US-CT-EAST HARTFORD-ETC ~ 400 Main St ~ BLDG ETC,US,https://globalhr.wd5.myworkdayjobs.com/private_posting_no_tmp/job/US-CT-EAST-HARTFORD-ETC--400-Main-St--BLDG-ETC/Software-Engineer-I--Onsite-_01874537,No,New
+10/06/2026,hpe,AI & ML Software Engineer,Workday,"Ft. Collins, Colorado, United States of America",US,https://hpe.wd5.myworkdayjobs.com/wfmathpe/job/Ft-Collins-Colorado-United-States-of-America/AI---ML-Software-Engineer_1215125-2,No,New
+10/06/2026,hyperiongrp,Data Analyst,Workday,Home - USA,US,https://hyperiongrp.wd3.myworkdayjobs.com/hyperion_external/job/Home---USA/Data-Analyst_R0019561-1,No,New
+10/06/2026,insulet,"Associate Systems Engineer, V&V",Workday,US - Massachusetts,US,https://insulet.wd5.myworkdayjobs.com/insuletcareers/job/US---Massachusetts/Associate-Systems-Engineer--V-V_REQ-2026-18363,No,New
+10/06/2026,hyperiongrp,Data Analyst,Workday,Home - USA,US,https://hyperiongrp.wd3.myworkdayjobs.com/broadbean_external/job/Home---USA/Data-Analyst_R0019561,No,New
+10/06/2026,mydpr,AI Platform Engineer,Workday,10 Locations,Unverified,https://mydpr.wd5.myworkdayjobs.com/11212017/job/Raleigh-Durham-NC/AI-Platform-Engineer_JR-17163,No,New
+10/06/2026,nc,Data Analyst,Workday,"Wake County, NC",US,https://nc.wd108.myworkdayjobs.com/nc_careers/job/Wake-County-NC/Data-Analyst_JR-125761,No,New
+10/06/2026,ngc,Cybersecurity Systems Engineer (Level 1/2),Workday,United States-California-El Segundo,US,https://ngc.wd1.myworkdayjobs.com/northrop_grumman_external_site/job/United-States-California-El-Segundo/Cybersecurity-Systems-Engineer--Level-1-2-_R10250987,No,New
+10/06/2026,ngc,Cybersecurity Systems Engineer (Level 3/4),Workday,United States-California-El Segundo,US,https://ngc.wd1.myworkdayjobs.com/northrop_grumman_external_site/job/United-States-California-El-Segundo/Cybersecurity-Systems-Engineer--Level-3-4-_R10250989,No,New
+10/06/2026,ngc,Systems Engineer (Level 1/2),Workday,United States-California-El Segundo,US,https://ngc.wd1.myworkdayjobs.com/northrop_grumman_external_site/job/United-States-California-El-Segundo/Systems-Engineer--Level-1-2-_R10250976,No,New
+10/06/2026,ngc,Systems Engineer (Level 3/4),Workday,United States-California-El Segundo,US,https://ngc.wd1.myworkdayjobs.com/northrop_grumman_external_site/job/United-States-California-El-Segundo/Systems-Engineer--Level-3-4-_R10250978,No,New
+10/06/2026,ngc,Systems Engineer - Level 5,Workday,United States-Arizona-Chandler,US,https://ngc.wd1.myworkdayjobs.com/northrop_grumman_external_site/job/United-States-Arizona-Chandler/Systems-Engineer---Level-5_R10240631,No,New
+10/06/2026,ngc,Systems Engineer - Level 4 (AHT),Workday,United States-Arizona-Chandler,US,https://ngc.wd1.myworkdayjobs.com/northrop_grumman_external_site/job/United-States-Arizona-Chandler/Systems-Engineer---Level-4--AHT-_R10246663,No,New
+10/06/2026,ngc,Systems Engineer - Level 6 Mission Modeling Simulation,Workday,2 Locations,Unverified,https://ngc.wd1.myworkdayjobs.com/northrop_grumman_external_site/job/United-States-Arizona-Chandler/Systems-Engineer---Mission-Modeling-Simulation---Level-6_R10246688,No,New
+10/06/2026,ngc,Systems Engineer: Mission Modeling Simulation – Level 3 or 4 (AHT),Workday,United States-Arizona-Chandler,US,https://ngc.wd1.myworkdayjobs.com/northrop_grumman_external_site/job/United-States-Arizona-Chandler/Systems-Engineer--Mission-Modeling-Simulation---Level-4--AHT-_R10245588,No,New
+10/06/2026,pru,"Senior Analyst, Data Analytics",Workday,52 Locations,Unverified,https://pru.wd5.myworkdayjobs.com/careers/job/Newark-NJ-USA/Senior-Analyst--Data-Analytics_R-124939-1,No,New
+10/06/2026,r1rcm,Software Engineer II - R37,Workday,2 Locations,Unverified,https://r1rcm.wd1.myworkdayjobs.com/r1rcm/job/Remote-USA/Software-Engineer-II---R37_R260000007427,No,New
+10/06/2026,r1rcm,Software Engineer III - R37,Workday,2 Locations,Unverified,https://r1rcm.wd1.myworkdayjobs.com/r1rcm/job/Remote-USA/Software-Engineer-III---R37_R260000007426-1,No,New
+10/06/2026,maersk,Software Engineer,Workday,2 Locations,Unverified,https://maersk.wd3.myworkdayjobs.com/maersk_careers/job/India-Bengaluru-560064/Software-Engineer_R193468,No,New
+10/06/2026,relx,Data Analyst III,Workday,"San Diego, CA",US,https://relx.wd3.myworkdayjobs.com/relx/job/San-Diego-CA/Data-Analyst-III_R119643,No,New
+10/06/2026,relx,Senior Data Scientist III,Workday,"Raleigh, NC",US,https://relx.wd3.myworkdayjobs.com/relx/job/Raleigh-NC/Senior-Data-Scientist-III_R119639,No,New
+10/06/2026,rsm,Senior Analytics Engineer (Financial Services),Workday,4 Locations,Unverified,https://rsm.wd1.myworkdayjobs.com/rsmcareers/job/Charlotte/Senior-Analytics-Engineer--Financial-Services-_JR121375,No,New
+10/06/2026,starz,Client Systems Engineer,Workday,"Denver, CO (Greenwood Village)",US,https://starz.wd5.myworkdayjobs.com/starz/job/Denver-CO-Greenwood-Village/Client-Systems-Engineer_JR100446,No,New
+10/06/2026,telstra,Senior Software Engineer,Workday,2 Locations,Unverified,https://telstra.wd3.myworkdayjobs.com/telstra_careers/job/Bengaluru-Karnataka/Senior-Software-Engineer_JR-10174697-1,No,New
+10/06/2026,trimble,AI Quality Assurance Engineering Management,Workday,"US - OR, Lake Oswego",US,https://trimble.wd1.myworkdayjobs.com/trimblecareers/job/US---OR-Lake-Oswego/AI-Quality-Assurance-Engineering-Management_R57833,No,New
+10/06/2026,umiami,BI Report Developer - Ambulatory Surgery and Clinical Quality Data Analysis,Workday,"Miami, FL",US,https://umiami.wd1.myworkdayjobs.com/umcareerstaff/job/Miami-FL/BI-Report-Developer---Ambulatory-Surgery-and-Clinical-Quality-Data-Analysis_R100098987,No,New
+10/06/2026,tsys,AI & Data Platform Engineer,Workday,"ALPHARETTA, GEORGIA",US,https://tsys.wd1.myworkdayjobs.com/tsys/job/ALPHARETTA-GEORGIA/AI---Data-Platform-Engineer_R0074577,No,New
+10/06/2026,tsys,Java Software Engineer (Cambridge),Workday,"CAMBRIDGE, , UNITED KINGDOM",US,https://tsys.wd1.myworkdayjobs.com/tsys/job/CAMBRIDGE--UNITED-KINGDOM/Java-Software-Engineer--Cambridge-_R0075460-1,No,New
+10/06/2026,utaustin,AI Computational Scientist – Senior Software Engineer,Workday,UT MAIN CAMPUS,US,https://utaustin.wd1.myworkdayjobs.com/utstaff/job/UT-MAIN-CAMPUS/AI-Computational-Scientist---Senior-Software-Engineer_R_00049221,No,New
+10/06/2026,visa,Data Engineer,Workday,"IN - Bengaluru, India",US,https://visa.wd5.myworkdayjobs.com/visa/job/IN---Bengaluru-India/Data-Engineer_REF089139W-1,No,New
+10/06/2026,vizient,Sr Software Engineer,Workday,2 Locations,Unverified,https://vizient.wd1.myworkdayjobs.com/vizient_careers/job/Irving-TX-75062-Vizient-Corporate-HQ/Sr-Software-Engineer_35336R,No,New
+10/06/2026,baseten,Software Engineer- Inference Performance,Ashby,San Francisco,US,https://jobs.ashbyhq.com/baseten/7cb19a05-8e5b-44cf-b3e7-19949e2eff04,No,New
+10/06/2026,baseten,Software Engineer- Inference Platform,Ashby,San Francisco,US,https://jobs.ashbyhq.com/baseten/14c4a663-0b1f-4c11-93ff-1359741ee456,No,New
+10/06/2026,blissway,"Software Engineer, Machine Learning Operations",Ashby,"Denver, Colorado",US,https://jobs.ashbyhq.com/blissway/3048f89c-56a2-44d0-960f-2e6553f51d30,No,New
+10/06/2026,flai,Software Engineer,Ashby,San Francisco,US,https://jobs.ashbyhq.com/flai/68e4597d-e628-4425-941f-bf48056e7828,No,New
+10/06/2026,harmattan-ai,Software Engineer - Mission Execution,Ashby,Lausanne,US,https://jobs.ashbyhq.com/harmattan-ai/397d67fc-c31a-4ecc-a9be-4f49db4dd4bd,No,New
+10/06/2026,modal,Member of Technical Staff - Inference Runtime,Ashby,San Francisco,US,https://jobs.ashbyhq.com/modal/6195f552-ca6f-4540-b7f6-e7e6054e47ad,No,New
+10/06/2026,retell-ai,"Software Engineer, Internal Deployed",Ashby,San Francisco Bay Area,US,https://jobs.ashbyhq.com/retell-ai/2e3f3930-0949-4b86-8ed1-7f5d9e068c87,No,New
+10/06/2026,sierra,"Software Engineer, Inference",Ashby,"San Francisco, CA",US,https://jobs.ashbyhq.com/sierra/b8666a78-fcb1-47bb-ad07-5edb6cd3ad71,No,New
+10/06/2026,mpathic2,Senior Software Engineer (Back End),BambooHR,Not specified,Unverified,https://mpathic2.bamboohr.com/careers/118,No,New
+10/06/2026,mpathic2,Senior Software Engineer (Front End),BambooHR,Not specified,Unverified,https://mpathic2.bamboohr.com/careers/120,No,New
 10/05/2026,brillio-2,AI Architect - R01570927,Lever,"Edison, New Jersey, United States",US,https://jobs.lever.co/brillio-2/2d9ca895-812b-4139-a09f-099e2bf2bbbd,No,New
 10/05/2026,ifm-us,Machine Learning Engineer — GPU Kernel,Lever,"Sunnyvale, CA",US,https://jobs.lever.co/ifm-us/29135b52-e2e0-47de-a373-697cd2f9c53c,No,New
 10/05/2026,ifm-us,Machine Learning Engineer — Pre-training (LLM),Lever,"Sunnyvale, CA",US,https://jobs.lever.co/ifm-us/8ffd3dde-0f35-4246-9e20-e7c96023284d,No,New
