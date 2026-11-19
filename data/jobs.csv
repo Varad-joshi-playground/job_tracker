@@ -1,4 +1,37 @@
 Date Found,Company,Role,ATS,Location,Loc Confidence,Link,Applied?,Source
+11/18/2026,bracco,Senior Software Engineer - Bracco Medical Technologies,Workday,"USA, Eden Prairie, Minnesota, 55344",US,https://bracco.wd103.myworkdayjobs.com/braccocareers/job/USA-Eden-Prairie-Minnesota-55344/Senior-Software-Engineer---Bracco-Medical-Technologies_JR100482,No,New
+11/18/2026,bracco,Software Engineer II - Bracco Medical Technologies,Workday,"USA, Eden Prairie, Minnesota, 55344",US,https://bracco.wd103.myworkdayjobs.com/braccocareers/job/USA-Eden-Prairie-Minnesota-55344/Software-Engineer-II---Bracco-Medical-Technologies_JR100480,No,New
+11/18/2026,clio,"Solutions Engineer, Financial Performance",Workday,4 Locations,Unverified,https://clio.wd3.myworkdayjobs.com/cliocareersite/job/London/Solutions-Engineer_REQ-5647,No,New
+11/18/2026,compassx,Forward Deployed Engineer (AI Solution Owner),Lever,"Irvine, CA",US,https://jobs.lever.co/compassx/f5d86967-d921-4e38-b62e-d9e0685e4ee6,No,New
+11/18/2026,goodleap,"Software Engineer, AI Transformation",Lever,"Austin, TX",US,https://jobs.lever.co/goodleap/65bb56a4-7e99-4e59-847d-b4b9240bbc4e,No,New
+11/18/2026,prolific-machines,"Senior Software Engineer, Data Infrastructure",Lever,"Emeryville, California",US,https://jobs.lever.co/prolific-machines/10441e3a-f731-4230-b8d7-f792daf8cd87,No,New
+11/18/2026,ansabiotechnologies,Lab Systems Software Engineer,Greenhouse,"Emeryville, CA",US,https://job-boards.greenhouse.io/ansabiotechnologies/jobs/4755924005,No,New
+11/18/2026,backblaze,Solutions Engineer,Greenhouse,Remote - US,US,https://job-boards.greenhouse.io/backblaze/jobs/5456407008,No,New
+11/18/2026,coinbase,Software Engineer,Greenhouse,Remote - USA,US,https://www.coinbase.com/careers/positions/8400323?gh_jid=8400323,No,New
+11/18/2026,employerdirecthealthcare,Data Engineer II,Greenhouse,"Dallas, TX - Hybrid (3x in office/week)",US,https://job-boards.greenhouse.io/employerdirecthealthcare/jobs/5295036007,No,New
+11/18/2026,fivetran,Senior People Systems Engineer,Greenhouse,"Oakland, California, United States",US,https://www.fivetran.com/careers/job?gh_jid=8204090003,No,New
+11/18/2026,gofasti,1203 - AI Engineer,Greenhouse,Remote,Unverified,https://careers.gofasti.com/job-application/6265823004?gh_jid=6265823004,No,New
+11/18/2026,gleanwork,"Enterprise Solutions Engineer, West",Greenhouse,San Francisco Bay Area,US,https://job-boards.greenhouse.io/gleanwork/jobs/4755916005,No,New
+11/18/2026,manifoldbio,"Senior Software Engineer, Lab Applications",Greenhouse,"Boston, MA",US,https://job-boards.greenhouse.io/manifoldbio/jobs/5301235007,No,New
+11/18/2026,mongodb,"Senior Software Engineer, Cloud Payments",Greenhouse,Atlanta; Austin; Boston; Chicago; Dallas; Denver; Los Angeles; New York City; Palo Alto; Princeton; San Francisco; Seattle; United States; Washington DC,US,https://www.mongodb.com/careers/job/?gh_jid=8397699,No,New
+11/18/2026,rangeviewinc,Infrastructure & Systems Engineer,Greenhouse,"El Segundo, California, United States",US,https://job-boards.greenhouse.io/rangeviewinc/jobs/4514130009,No,New
+11/18/2026,rocketlab,Senior Flight Software Engineer I,Greenhouse,"Littleton, CO",US,https://job-boards.greenhouse.io/rocketlab/jobs/8084557003,No,New
+11/18/2026,tebra,Senior Analytics Engineer,Greenhouse,United States - Remote,US,https://job-boards.greenhouse.io/tebra/jobs/4749058005,No,New
+11/18/2026,trelliswaretechnologies,"MAC Software Engineer, Narrowband Waveforms",Greenhouse,"San Diego, California",US,https://job-boards.greenhouse.io/trelliswaretechnologies/jobs/4466565009,No,New
+11/18/2026,tripactions,AI Forward Engineer,Greenhouse,"Palo Alto, CA or San Francisco, CA",US,https://navan.com/careers/openings?gh_jid=8366332,No,New
+11/18/2026,tripactions,AI Forward Engineer,Greenhouse,"New York, NY",US,https://navan.com/careers/openings?gh_jid=8395467,No,New
+11/18/2026,vercel,"Software Engineer, Website",Greenhouse,Hybrid - New York City,US,https://job-boards.greenhouse.io/vercel/jobs/5732855004,No,New
+11/18/2026,spacex,"Backend Software Engineer, GNC (Starlink)",Greenhouse,"Redmond, WA",US,https://boards.greenhouse.io/spacex/jobs/8753321002?gh_jid=8753321002,No,New
+11/18/2026,citizen,Senior Data Scientist,Ashby,New York City,US,https://jobs.ashbyhq.com/citizen/8e9e7951-fc43-461c-a923-f553bdeff1ff,No,New
+11/18/2026,hadrian-automation,Software Engineer - Enterprise Apps,Ashby,"Los Angeles, CA",US,https://jobs.ashbyhq.com/hadrian-automation/11e18ee0-243b-46a8-a9e5-fd67095e3a15,No,New
+11/18/2026,kira,Software Engineer (Entry Level),Ashby,New York or San Francisco,US,https://jobs.ashbyhq.com/kira/d92f1ac9-1abb-448c-b039-22643d9bb8a7,No,New
+11/18/2026,langchain,"Software Engineer, Infrastructure",Ashby,"San Francisco, CA",US,https://jobs.ashbyhq.com/langchain/e725293d-c27b-4a79-959d-19f5618f2f8e,No,New
+11/18/2026,lavendo,"Solutions Engineer, Developer Infrastructure & Identity (San Francisco)",Ashby,San Francisco,US,https://jobs.ashbyhq.com/lavendo/c0ea38af-05aa-4778-b662-c20738a0e090,No,New
+11/18/2026,liquid-ai,Member of Technical Staff - Product Engineer (Console/API),Ashby,San Francisco,US,https://jobs.ashbyhq.com/liquid-ai/3914c96f-0fbe-4bae-92fa-5a98f9a927f1,No,New
+11/18/2026,polygon-labs,"Forward Deployed Engineer, Payments",Ashby,USA - Remote,US,https://jobs.ashbyhq.com/polygon-labs/b113cd97-5c66-48a1-8949-8a748becad47,No,New
+11/18/2026,read-ai,Software Engineer - Backend (Core),Ashby,Read AI - Seattle HQ,US,https://jobs.ashbyhq.com/read-ai/afe75ea2-4657-46e7-9f9f-43c348dbc796,No,New
+11/18/2026,rula,Software Engineer II,Ashby,Remote - United States,US,https://jobs.ashbyhq.com/rula/93215a80-a855-4b86-8e5c-e4ee29d64bdf,No,New
+11/18/2026,kelvininc,Solutions Engineer (Australia),BambooHR,Not specified,Unverified,https://kelvininc.bamboohr.com/careers/63,No,New
 11/18/2026,aveva,Senior Software Engineer,Workday,"Irvine, California, United States of America",US,https://aveva.wd3.myworkdayjobs.com/etap_careers/job/Irvine-California-United-States-of-America/Senior-Software-Engineer_R013468,No,New
 11/18/2026,pnc,"Business Analyst Senior  - Data, Modeling & Analytics",Workday,PA - Pittsburgh (15222),US,https://pnc.wd5.myworkdayjobs.com/external/job/PA---Pittsburgh-15222/Business-Analyst-Senior----Balance-Sheet-Analytics---Modeling_R214886-1,No,New
 11/18/2026,pg,Data Engineer - North America Fabric Care,Workday,CINCINNATI GENERAL OFFICES,US,https://pg.wd5.myworkdayjobs.com/1000/job/CINCINNATI-GENERAL-OFFICES/Data-Engineer---North-America-Fabric-Care_R000157463,No,New
